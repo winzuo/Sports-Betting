@@ -1,0 +1,50 @@
+```{r Packages}
+library(xml2)
+library(rvest)
+library(dplyr)
+library(stringr)
+```
+
+
+
+```{r}
+
+newurl <- "https://www.scoresandodds.com/prop-bets/408950/donte-divincenzo"
+file<-read_html(newurl)
+tables<-html_nodes(file, "table")
+table2 <- html_table(tables[2], fill = TRUE)
+table2 <- data.frame(table2)
+actual_value <- table2$Actual[table2$Consensus == "Points"]
+actual_value
+```
+
+```{r}
+
+```
+
+
+```{r}
+
+check_result <- function(player_name, Category, line, over_under) {
+newurl <- getWebsite(player_name)
+file<-read_html(newurl)
+tables<-html_nodes(file, "table")
+table2 <- html_table(tables[2], fill = TRUE)
+table2 <- data.frame(table2)
+actual_value <- table2$Actual[table2$Consensus == Category]
+if (over_under == "Over") {
+    if (actual_value > line) {
+      return(1)
+    } else {
+      return(0)
+    }
+  } else {
+    if (actual_value < line) {
+      return(1)
+    } else {
+      return(0)
+    }
+  }
+}      
+check_result("Donte Divincenzo", "Points", 11.5, "over")
+```

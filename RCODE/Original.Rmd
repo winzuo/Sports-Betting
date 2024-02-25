@@ -257,7 +257,7 @@ playerlist <- c("Joel Embiid",
 
 
 
-```{r eval=FALSE, include=FALSE}
+```{r }
 getWebsite <- function(name){
   url <- URLencode(paste0("https://www.google.com/search?q=scores+and+odds+",name))
   search_page <- read_html(url)
@@ -270,6 +270,7 @@ getWebsite <- function(name){
 
 out[3]
 }
+get
 ```
 
 ```{r eval=FALSE, include=FALSE}

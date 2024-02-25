@@ -5,8 +5,16 @@ output:
   html_document: default
 date: "2024-01-26"
 ---
-
-
+```{r Packages}
+links <- read.csv("links.csv")
+links <- links[[2]]
+```
+```{r Packages}
+library(xml2)
+library(rvest)
+library(dplyr)
+library(stringr)
+```
 
 ```{r SCORESANDSODDS}
 profit <- list()
@@ -70,7 +78,8 @@ for (link in links) {
         Player = player_name,
         RowName = finalrownames[i],
         Line = final$Prizepicks[i],
-        Under = final$Under[i])
+        Under = final$Under[i],
+        Date = formatted_date)
       }
     }
   }
