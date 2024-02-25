@@ -17,7 +17,6 @@ library(stringr)
 ```
 
 ```{r SCORESANDSODDS}
-print("HELLLLLLLOOOOO")
 profit <- list()
 for (link in links) {
   theurl <- link
@@ -70,8 +69,8 @@ for (link in links) {
         Player = player_name,
         RowName = finalrownames[i],
         Line = final$Prizepicks[i],
-        Over = final$Over[i]),
-        Date = formatted_date
+        Over = final$Over[i],
+        Date = formatted_date)
       }
     
     if (final$Under[i] <= -138) {
@@ -79,8 +78,8 @@ for (link in links) {
         Player = player_name,
         RowName = finalrownames[i],
         Line = final$Prizepicks[i],
-        Under = final$Under[i]),
-        Date = formatted_date
+        Under = final$Under[i],
+        Date = formatted_date)
       }
     }
   }
