@@ -1,0 +1,420 @@
+```{r}
+library(tidyverse)
+library(rvest)
+```
+```{r}
+playerlist <- c("Joel Embiid",
+"Luka Dončić",
+"Damian Lillard",
+"Shai Gilgeous-Alexander",
+"Giannis Antetokounmpo",
+"Jayson Tatum",
+"Donovan Mitchell",
+"Kyrie Irving",
+"Jaylen Brown",
+"Ja Morant",
+"Trae Young",
+"Lauri Markkanen",
+"Julius Randle",
+"De'Aaron Fox",
+"Zach LaVine",
+"Anthony Edwards",
+"DeMar DeRozan",
+"Nikola Jokić",
+"Pascal Siakam",
+"Jalen Brunson",
+"Kristaps Porziņģis",
+"Jimmy Butler",
+"Jalen Green",
+"Keldon Johnson",
+"Klay Thompson",
+"Bojan Bogdanović",
+"Darius Garland",
+"Desmond Bane",
+"Kyle Kuzma",
+"Terry Rozier",
+"Anfernee Simons",
+"James Harden",
+"CJ McCollum",
+"Jordan Clarkson",
+"Jerami Grant",
+"Dejounte Murray",
+"Bam Adebayo",
+"Jordan Poole",
+"Tyrese Maxey",
+"Mikal Bridges",
+"Tyler Herro",
+"Paolo Banchero",
+"Jamal Murray",
+"RJ Barrett",
+"Jrue Holiday",
+"Fred VanVleet",
+"Kevin Porter Jr.",
+"Domantas Sabonis",
+"Jaren Jackson Jr.",
+"Franz Wagner",
+"Deandre Ayton",
+"Myles Turner",
+"D'Angelo Russell",
+"Nikola Vučević",
+"Michael Porter Jr.",
+"Gary Trent Jr.",
+"Spencer Dinwiddie",
+"Norman Powell",
+"OG Anunoby",
+"Buddy Hield",
+"Bennedict Mathurin",
+"Josh Giddey",
+"Christian Wood",
+"Aaron Gordon",
+"Jaden Ivey",
+"Evan Mobley",
+"Brook Lopez",
+"Russell Westbrook",
+"P.J. Washington",
+"De'Andre Hunter",
+"Scottie Barnes",
+"Kevin Huerter",
+"Harrison Barnes",
+"Malcolm Brogdon",
+"Immanuel Quickley",
+"Alperen Şengün",
+"Tobias Harris",
+"Trey Murphy III",
+"Tim Hardaway Jr.",
+"Jarrett Allen",
+"Dillon Brooks",
+"Bobby Portis",
+"Jonas Valančiūnas",
+"Jalen Williams",
+"Markelle Fultz",
+"Chris Paul",
+"Saddiq Bey",
+"Luguentz Dort",
+"Malik Monk",
+"Rudy Gobert",
+"John Collins",
+"Cole Anthony",
+"Austin Reaves",
+"Tre Jones",
+"Jabari Smith Jr.",
+"Malik Beasley",
+"KJ Martin",
+"Nic Claxton",
+"Dennis Schröder",
+"Kelly Olynyk",
+"Jakob Poeltl",
+"Eric Gordon",
+"Derrick White",
+"Keegan Murray",
+"Caris LeVert",
+"Jaden McDaniels",
+"Clint Capela",
+"Mike Conley",
+"Zach Collins",
+"Bruce Brown",
+"Naz Reid",
+"Marcus Smart",
+"Max Strus",
+"Quentin Grimes",
+"Rui Hachimura",
+"Marcus Morris",
+"Corey Kispert",
+"Kentavious Caldwell-Pope",
+"Jaylen Nowell",
+"Mason Plumlee",
+"Ivica Zubac",
+"Talen Horton-Tucker",
+"Grayson Allen",
+"Killian Hayes",
+"Tyus Jones",
+"Monte Morris",
+"Malaki Branham",
+"Reggie Jackson",
+"Doug McDermott",
+"Patrick Williams",
+"De'Anthony Melton",
+"Aaron Nesmith",
+"Josh Richardson",
+"Jonathan Kuminga",
+"Onyeka Okongwu",
+"Shaedon Sharpe",
+"Thomas Bryant",
+"Josh Hart",
+"Al Horford",
+"Herbert Jones",
+"Keita Bates-Diop",
+"Coby White",
+"Caleb Martin",
+"Isaiah Joe",
+"Andrew Nembhard",
+"Kyle Anderson",
+"Chris Boucher",
+"Donte DiVincenzo",
+"Jalen McDaniels",
+"Jalen Smith",
+"Gabe Vincent",
+"Tari Eason",
+"Luke Kennard",
+"Deni Avdija",
+"Seth Curry",
+"Walker Kessler",
+"Bol Bol",
+"Jalen Duren",
+"Josh Green",
+"Naji Marshall",
+"Santi Aldama",
+"Jose Alvarado",
+"Daniel Gafford",
+"AJ Griffin",
+"Terance Mann",
+"Royce O'Neale",
+"T.J. McConnell",
+"Jordan Nwora",
+"Cedi Osman",
+"Ayo Dosunmu",
+"Draymond Green",
+"Shake Milton",
+"Dorian Finney-Smith",
+"Terrence Ross",
+"Damion Lee",
+"Kevin Love",
+"Georges Niang",
+"Nick Richards",
+"Grant Williams",
+"Jevon Carter",
+"Ochai Agbaji",
+"Jarred Vanderbilt",
+"Tre Mann",
+"Pat Connaughton",
+"Joe Harris",
+"Trey Lyles",
+"Torrey Craig",
+"Devonte' Graham",
+"Mitchell Robinson",
+"Obi Toppin",
+"Trendon Watford",
+"Josh Okogie",
+"Reggie Bullock",
+"Isaiah Jackson",
+"Troy Brown Jr.",
+"Kendrick Nunn",
+"Kevon Looney",
+"Xavier Tillman Sr.",
+"Cory Joseph",
+"Larry Nance Jr.",
+"Aaron Wiggins",
+"Terence Davis",
+"Anthony Lamb",
+"Dwight Powell",
+"David Roddy",
+"Drew Eubanks",
+"Jordan Goodwin",
+"Kevin Knox",
+"Jock Landale",
+"Sam Hauser",
+"Isaac Okoro",
+"Goran Dragić",
+"Nickeil Alexander-Walker",
+"Patrick Beverley",
+"Nicolas Batum",
+"Oshae Brissett",
+"Mike Muscala",
+"Andre Drummond",
+"Josh Christopher",
+"Alex Caruso",
+"Jalen Johnson",
+"Davion Mitchell",
+"Yuta Watanabe",
+"Wenyen Gabriel",
+"Lamar Stevens",
+"John Konchar",
+"Isaiah Hartenstein",
+"Derrick Jones Jr.",
+"Chimezie Metu",
+"Moses Moody",
+"Christian Braun",
+"Bismack Biyombo",
+"Paul Reed",
+"Ish Wainright",
+"Matisse Thybulle",
+"Aaron Holiday",
+"Dyson Daniels",
+"Luke Kornet",
+"JT Thor",
+"Miles McBride",
+"P.J. Tucker",
+"Anthony Gill",
+"Christian Koloko",
+"Usman Garuba")
+```
+
+
+
+
+
+
+
+
+
+```{r eval=FALSE, include=FALSE}
+getWebsite <- function(name){
+  url <- URLencode(paste0("https://www.google.com/search?q=scores+and+odds+",name))
+  search_page <- read_html(url)
+  links <- search_page |> 
+    html_elements("a") |> 
+    html_attr("href") 
+
+  i <- stringr::str_detect(links, "url\\?q\\=")
+  out <- stringr::str_extract(links[i], "https.*?(?=\\&)")
+
+out[3]
+}
+```
+
+```{r eval=FALSE, include=FALSE}
+websites <- c()
+for (name in playerlist) {
+  name <- gsub(" ", "", name)
+  x <- getWebsite(name)
+  websites <- append(websites, x)
+}
+websites
+```
+
+```{r}
+(typeof(as.vector(websites)))
+
+
+```
+
+
+```{r eval=FALSE, include=FALSE}
+links <- websites[-c(227)]
+links
+```
+
+```{r}
+data <- data.frame(playerlist, links)
+colnames(data) <- c("Player", "Link")
+data
+```
+
+```{r}
+scoresandodds <- html_table(tables[2])
+scoresandodds[[1]]
+Consensus <- list()
+for (i in seq_len(nrow(scoresandodds[[1]]))) {
+
+  if (scoresandodds[[1]]$Under[i] <= -125) {
+
+    Consensus[[i]] <- list(
+      RowName = scoresandodds[[1]]$Consensus[i],
+      Line = scoresandodds[[1]]$Line[i],
+      Under = scoresandodds[[1]]$Under[i])
+  }
+}
+for (i in seq_len(nrow(scoresandodds[[1]]))) {
+  if (scoresandodds[[1]]$Over[i] <= -125) {
+    Consensus[[i]] <- list(
+      RowName = scoresandodds[[1]]$Consensus[i],
+      Line = scoresandodds[[1]]$Line[i],
+      Over = scoresandodds[[1]]$Over[i])
+  }
+}
+Consensus <- Filter(Negate(is.null), Consensus)
+Consensus
+```
+
+```{r}
+rownames <- c("Over Points", "Under Points", "Over Rebounds", "Under Rebounds", "Over Assists", "Under Assists", "Over Blocks", "Under Blocks", "Over Steals", "Under Steals", "Over Threes", "Under Threes", "Over PR", "Under PR", "Over PA", "Under PA", "Over PRA", "Under PRA", "Over RA", "Under RA", "Over Turnovers", "Under Turnovers")
+newtable <- data.frame(table1, row.names = rownames)
+retable <- newtable[-c(1:3, 5:11)]
+colnames(retable) <- c("Prizepicks")
+retable$Prizepicks <- str_remove(retable$Prizepicks, " MORE +")
+retable$Prizepicks <- str_remove(retable$Prizepicks, " LESS +")
+retable$Prizepicks <- str_remove(retable$Prizepicks, " \\+")
+retable
+```
+
+
+```{r}
+newtable <- data.frame(table1)
+reretable <- newtable[-c(1:3, 5:11)]
+reretable <- data.frame(reretable[-c(2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22), ])
+colnames(reretable) <- "Prizepicks"
+reretable$Prizepicks <- str_remove(reretable$Prizepicks, " MORE +")
+reretable$Prizepicks <- str_remove(reretable$Prizepicks, " \\+")
+reretable
+```
+
+
+```{r}
+finalrownames <- c("Points", "Rebounds", "Assists", "Blocks", "Steals", "Threes", "Points & Rebounds", "Points & Assists", "Points, Rebounds, Assists", "Rebounds & Assists", "Turnovers")
+final <- data.frame(table2, row.names = finalrownames)
+final <- final[-c(1)]
+final <- cbind (reretable, final)
+final
+```
+
+```{r}
+profit <- list()
+for (i in seq_len(nrow(final))) {
+
+  if (final$Prizepicks[i] == final$Line[i]) {
+    
+    if (final$Over[i]<= -125) {
+      profit[[length(profit)+1]] <- list(
+      RowName = rownames(final)[i],
+      Line = final$Prizepicks[i],
+      Over = final$Over[i])
+    }
+    
+    if (final$Under[i] <= -125) {
+     profit[[length(profit)+1]] <- list(
+        RowName = rownames(final)[i],
+        Line = final$Prizepicks[i],
+        Under = final$Under[i])
+    }
+  }
+}
+profit <- matrix(unlist(t(profit)), byrow=T, 3)
+profit
+```
+```{r}
+application <- function(player, link) {
+  profit <- list()
+  for (i in seq_len(nrow(final))) {
+    if (final$Prizepicks[i] == final$Line[i]) {
+      if (final$Over[i]<= -125) {
+      profit[[length(profit)+1]] <- list(
+        Name = player,
+        RowName = rownames(final)[i],
+        Line = final$Prizepicks[i],
+        Over = final$Over[i])
+    }
+    
+    if (final$Under[i] <= -125) {
+     profit[[length(profit)+1]] <- list(
+       Name = player,
+       RowName = rownames(final)[i],
+       Line = final$Prizepicks[i],
+       Under= final$Under[i])
+    }
+  }
+}
+return(profit)
+}
+```
+
+
+```{r}
+total <- list()
+for (i in seq_len(nrow(data))) {
+  helper <- application(data$Player[i], data$Link[i])
+}
+append(total, help)
+total
+```
+
+

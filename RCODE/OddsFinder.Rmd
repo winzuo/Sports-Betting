@@ -1,0 +1,235 @@
+---
+title: "Test"
+output:
+  pdf_document: default
+  html_document: default
+date: "2024-01-26"
+---
+
+
+
+```{r SCORESANDSODDS}
+profit <- list()
+for (link in links) {
+  theurl <- link
+  if (theurl =="https://www.scoresandodds.com/prop-bets/18631/jordan-clarkson" ){
+    next
+  }
+  
+  file<-read_html(theurl)
+  date <- html_node(file,css='.reverse span:nth-child(5)')
+  date_string <- html_text(date)
+  parsed_date <- strptime(date_string, format = "%a %m/%d %I:%M%p")
+  formatted_date <- format(parsed_date, "%Y-%m-%d")
+  if (formatted_date != Sys.Date() ){
+    next
+  }
+  tables<-html_nodes(file, "table")
+  table1 <- html_table(tables[1], header = TRUE)
+  table1[[1]][4]
+  
+  table2 <- html_table(tables[2], fill = TRUE)
+  table2
+  player_name <- html_text(html_node(file, css = ".page-footer .hydrated , h4"))
+  print(player_name)
+  
+  newtable <- data.frame(table1)
+  reretable <- newtable[-c(1:3, 5:11)]
+  reretable <- data.frame(reretable[-c(2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22), ])
+  colnames(reretable) <- "Prizepicks"
+  reretable$Prizepicks <- str_remove(reretable$Prizepicks, " MORE +")
+  reretable$Prizepicks <- str_remove(reretable$Prizepicks, " \\+")
+  
+  
+  finalrownames <- c("Points", "Rebounds", "Assists", "Blocks", "Steals", "Threes", "Points & Rebounds", "Points & Assists", "Points, Rebounds, Assists", "Rebounds & Assists", "Turnovers")
+  if (nrow(data.frame(table2)) == 0) {
+    next
+  }
+  if (nrow(reretable) == 0) {
+    next
+  }
+  reretable <- replace(reretable, is.na(reretable), FALSE)
+  final <- data.frame(table2)
+  final <- final[-c(1)]
+  final <- cbind (reretable, final)
+  final
+
+  for (i in seq_len(nrow(final))) {
+    if (final$Prizepicks[i] == final$Line[i]) {
+      if (final$Over[i] <= -138) {
+        profit[[length(profit) + 1]] <- list(
+        Player = player_name,
+        RowName = finalrownames[i],
+        Line = final$Prizepicks[i],
+        Over = final$Over[i])
+      }
+    
+    if (final$Under[i] <= -138) {
+      profit[[length(profit) + 1]] <- list(
+        Player = player_name,
+        RowName = finalrownames[i],
+        Line = final$Prizepicks[i],
+        Under = final$Under[i])
+      }
+    }
+  }
+  print(profit)
+  
+  player_name <- sub(".*/([^/]+)$", "\\1", theurl)
+
+
+  print(player_name)
+  print(profit)
+}
+profit <- bind_rows(lapply(profit, as.data.frame))
+profit
+print(profit[order(profit$Under, decreasing = FALSE), ]   )
+print(profit[order(profit$Over, decreasing = FALSE), ]   )
+
+```
+
+
+
+```{r}
+
+library(httr)
+library(jsonlite)
+
+prizepicks_url <- "https://partner-api.prizepicks.com/projections?league_id=7&per_page=10"
+
+get_prizepicks_lines <- function(url) {
+  data <- fromJSON(url)
+  return(data)
+}
+
+#If 403 error, copy data from website and save to a local .json file:
+#prizepicks <- fromJSON("~/Desktop/prizepicks.json")
+prizepicks <- get_prizepicks_lines(prizepicks_url)
+
+prizepicks_1 <- data.frame(prizepicks[[1]])
+prizepicks_2 <- data.frame(prizepicks[[2]])
+
+
+#remove demons and goblins
+prizepicks_1 <- prizepicks_1[prizepicks_1$attributes$odds_type == "standard", ] 
+
+
+#get necessary columns
+prizepicks_1 <- data.frame(cbind(prizepicks_1$attributes$description, prizepicks_1$attributes$line_score, 
+prizepicks_1$attributes$stat_type, prizepicks_1$attributes$start_time, 
+  prizepicks_1$relationships$league$data$id, 
+prizepicks_1$relationships$new_player$data$id, 
+prizepicks_1$relationships$stat_type$data$id))
+
+
+colnames(prizepicks_1) <- c("participant_name", "handicap", "sportsbooks.bookie_key", "start_time", "league_id", "player_id", "market_id")
+
+
+#update prizepicks 1 names based on player id from prizepicks 2
+for (j in 1:length(prizepicks_2$id)) {
+  for (i in 1:length(prizepicks_1$player_id)) {
+    if (prizepicks_2$id[j] == prizepicks_1$player_id[i]) {
+      prizepicks_1$participant_name[i] <- prizepicks_2$attributes$display_name[j]
+    }
+  }
+}
+#add league
+league_id_and_league <- na.omit(data.frame(unique(prizepicks_2$attributes$league_id), unique(prizepicks_2$attributes$league)))
+colnames(league_id_and_league) <- c("id", "league")
+
+for (j in 1:nrow(league_id_and_league)) {
+  for (i in 1:nrow(prizepicks_1)) {
+    if (league_id_and_league$id[j] == prizepicks_1$league_id[i]) {
+      prizepicks_1$league[i] <- league_id_and_league$league[j]
+    }
+  }
+}
+
+prizepicks_nba <- prizepicks_1[prizepicks_1$league == "NBA", ]
+prizepicks_nba$sportsbooks.bookie_key <- ifelse(prizepicks_nba$sportsbooks.bookie_key == "Pts+Rebs", "Points & Rebounds", prizepicks_nba$sportsbooks.bookie_key)
+prizepicks_nba$sportsbooks.bookie_key <- ifelse(prizepicks_nba$sportsbooks.bookie_key == "Pts+Asts", "Points & Assists", prizepicks_nba$sportsbooks.bookie_key)
+prizepicks_nba$sportsbooks.bookie_key <- ifelse(prizepicks_nba$sportsbooks.bookie_key == "Pts+Rebs+Asts", "Points, Rebounds, Assists", prizepicks_nba$sportsbooks.bookie_key)
+prizepicks_nba$sportsbooks.bookie_key <- ifelse(prizepicks_nba$sportsbooks.bookie_key == "Rebs+Asts", "Rebounds & Assists", prizepicks_nba$sportsbooks.bookie_key)
+prizepicks_nba$sportsbooks.bookie_key <- ifelse(prizepicks_nba$sportsbooks.bookie_key == "Blocked Shots", "Blocks", prizepicks_nba$sportsbooks.bookie_key)
+prizepicks_nba$sportsbooks.bookie_key <- ifelse(prizepicks_nba$sportsbooks.bookie_key == "3-PT Made", "Threes", prizepicks_nba$sportsbooks.bookie_key)
+
+prizepicks_nba
+
+```
+
+
+
+
+```{r Final Output}
+library(tools)
+colnames(prizepicks_nba)[colnames(prizepicks_nba) == "participant_name"] <- "Player"
+
+# Sample player names
+profit
+prizepicks_nba
+
+# Remove dashes and capitalize player names
+profit$Player <- gsub("-", " ", profit$Player)
+profit$Player <- toupper(profit$Player)
+prizepicks_nba$Player <- gsub("-", " ", prizepicks_nba$Player)
+prizepicks_nba$Player <- toupper(prizepicks_nba$Player)
+matched_rows <- data.frame(Player = character(), RowName = character(), Line = character())
+
+
+# Iterate over each row in profit
+for (i in seq_len(nrow(profit))) {
+  # Check if Player and sportsbooks.bookie_key are not NA
+  if (!is.na(profit$Player[i]) & !is.na(profit$RowName[i])) {
+    # Check if there is a matching row in prizepicks_nba for the current player and attribute
+    if (any(prizepicks_nba$Player == profit$Player[i] & prizepicks_nba$sportsbooks.bookie_key == profit$RowName[i]& prizepicks_nba$handicap == profit$Line[i])) {
+      matched_rows <- rbind(matched_rows, profit[i, ])
+    }
+  }
+}
+
+# Update profit with matched rows
+profit2 <- matched_rows
+print(profit2[order(profit2$Under, decreasing = FALSE), ]   )
+print(profit2[order(profit2$Over, decreasing = FALSE), ]   )
+
+
+```
+
+
+
+
+
+```{r}
+library(tools)
+colnames(prizepicks_nba)[colnames(prizepicks_nba) == "participant_name"] <- "Player"
+# Sample player names
+
+
+# Remove dashes and capitalize player names
+profit$Player <- gsub("-", " ", profit$Player)
+profit$Player <- toupper(profit$Player)
+prizepicks_nba$Player <- gsub("-", " ", prizepicks_nba$Player)
+prizepicks_nba$Player <- toupper(prizepicks_nba$Player)
+
+# Print cleaned player names
+profit
+prizepicks_nba
+common_players <- intersect(profit$Player, prizepicks_nba$Player)
+profit <- profit[profit$Player %in% common_players, ]
+common_type <- intersect(profit$RowName, prizepicks_nba$sportsbooks.bookie_key)
+profit <- profit[profit$Player %in% common_players, ]
+profit
+```
+
+```{r}
+links
+```
+
+
+```{r}
+57/102
+```
+
+
+
+
