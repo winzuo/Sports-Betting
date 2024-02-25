@@ -144,10 +144,10 @@ for (j in 1:nrow(league_id_and_league)) {
 prizepicks_nba <- prizepicks_1[prizepicks_1$league == "NBA", ]
 prizepicks_nba$sportsbooks.bookie_key <- ifelse(prizepicks_nba$sportsbooks.bookie_key == "Pts+Rebs", "Points & Rebounds", prizepicks_nba$sportsbooks.bookie_key)
 prizepicks_nba$sportsbooks.bookie_key <- ifelse(prizepicks_nba$sportsbooks.bookie_key == "Pts+Asts", "Points & Assists", prizepicks_nba$sportsbooks.bookie_key)
-prizepicks_nba$sportsbooks.bookie_key <- ifelse(prizepicks_nba$sportsbooks.bookie_key == "Pts+Rebs+Asts", "Points, Rebounds, Assists", prizepicks_nba$sportsbooks.bookie_key)
+prizepicks_nba$sportsbooks.bookie_key <- ifelse(prizepicks_nba$sportsbooks.bookie_key == "Pts+Rebs+Asts", "Points, Rebounds, & Assists", prizepicks_nba$sportsbooks.bookie_key)
 prizepicks_nba$sportsbooks.bookie_key <- ifelse(prizepicks_nba$sportsbooks.bookie_key == "Rebs+Asts", "Rebounds & Assists", prizepicks_nba$sportsbooks.bookie_key)
 prizepicks_nba$sportsbooks.bookie_key <- ifelse(prizepicks_nba$sportsbooks.bookie_key == "Blocked Shots", "Blocks", prizepicks_nba$sportsbooks.bookie_key)
-prizepicks_nba$sportsbooks.bookie_key <- ifelse(prizepicks_nba$sportsbooks.bookie_key == "3-PT Made", "Threes", prizepicks_nba$sportsbooks.bookie_key)
+prizepicks_nba$sportsbooks.bookie_key <- ifelse(prizepicks_nba$sportsbooks.bookie_key == "3-PT Made", "3 Pointers", prizepicks_nba$sportsbooks.bookie_key)
 
 prizepicks_nba
 
@@ -185,34 +185,7 @@ for (i in seq_len(nrow(profit))) {
 
 # Update profit with matched rows
 profit2 <- matched_rows
-print(profit2[order(profit2$Under, decreasing = FALSE), ]   )
-print(profit2[order(profit2$Over, decreasing = FALSE), ]   )
+print(profit2[order(profit2$Odds, decreasing = FALSE), ]   )
 
 
-```
-
-
-
-
-
-```{r}
-library(tools)
-colnames(prizepicks_nba)[colnames(prizepicks_nba) == "participant_name"] <- "Player"
-# Sample player names
-
-
-# Remove dashes and capitalize player names
-profit$Player <- gsub("-", " ", profit$Player)
-profit$Player <- toupper(profit$Player)
-prizepicks_nba$Player <- gsub("-", " ", prizepicks_nba$Player)
-prizepicks_nba$Player <- toupper(prizepicks_nba$Player)
-
-# Print cleaned player names
-profit
-prizepicks_nba
-common_players <- intersect(profit$Player, prizepicks_nba$Player)
-profit <- profit[profit$Player %in% common_players, ]
-common_type <- intersect(profit$RowName, prizepicks_nba$sportsbooks.bookie_key)
-profit <- profit[profit$Player %in% common_players, ]
-profit
 ```
