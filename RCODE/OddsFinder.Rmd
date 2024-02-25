@@ -1,28 +1,17 @@
 ---
-title: "Test"
-output:
-  pdf_document: default
-  html_document: default
-date: "2024-01-26"
+title: "OddsFinder"
+output: pdf_document
+date: "2024-02-25"
 ---
-```{r Packages}
-links <- read.csv("links.csv")
-links <- links[[2]]
-```
-```{r Packages}
-library(xml2)
-library(rvest)
-library(dplyr)
-library(stringr)
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ```{r SCORESANDSODDS}
 profit <- list()
 for (link in links) {
   theurl <- link
-  if (theurl =="https://www.scoresandodds.com/prop-bets/18631/jordan-clarkson" ){
-    next
-  }
   
   file<-read_html(theurl)
   date <- html_node(file,css='.reverse span:nth-child(5)')
@@ -49,7 +38,7 @@ for (link in links) {
   reretable$Prizepicks <- str_remove(reretable$Prizepicks, " \\+")
   
   
-  finalrownames <- c("Points", "Rebounds", "Assists", "Blocks", "Steals", "Threes", "Points & Rebounds", "Points & Assists", "Points, Rebounds, Assists", "Rebounds & Assists", "Turnovers")
+  finalrownames <- c("Points", "Rebounds", "Assists", "Blocks", "Steals", "3 Pointers", "Points & Rebounds", "Points & Assists", "Points, Rebounds, & Assists", "Rebounds & Assists", "Turnovers")
   if (nrow(data.frame(table2)) == 0) {
     next
   }
@@ -64,22 +53,22 @@ for (link in links) {
 
   for (i in seq_len(nrow(final))) {
     if (final$Prizepicks[i] == final$Line[i]) {
-      if (final$Over[i] <= -138) {
+      if (final$Over[i] <= -130) {
         profit[[length(profit) + 1]] <- list(
         Player = player_name,
         RowName = finalrownames[i],
         Line = final$Prizepicks[i],
-        Over = final$Over[i],
-        Date = formatted_date)
+        Over_Under = "Over",
+        Odds = final$Over[i])
       }
     
-    if (final$Under[i] <= -138) {
+    if (final$Under[i] <= -130) {
       profit[[length(profit) + 1]] <- list(
         Player = player_name,
         RowName = finalrownames[i],
         Line = final$Prizepicks[i],
-        Under = final$Under[i],
-        Date = formatted_date)
+        Over_Under = "Under",
+        Odds = final$Under[i])
       }
     }
   }
@@ -93,9 +82,6 @@ for (link in links) {
 }
 profit <- bind_rows(lapply(profit, as.data.frame))
 profit
-print(profit[order(profit$Under, decreasing = FALSE), ]   )
-print(profit[order(profit$Over, decreasing = FALSE), ]   )
-
 ```
 
 
@@ -230,16 +216,3 @@ common_type <- intersect(profit$RowName, prizepicks_nba$sportsbooks.bookie_key)
 profit <- profit[profit$Player %in% common_players, ]
 profit
 ```
-
-```{r}
-links
-```
-
-
-```{r}
-57/102
-```
-
-
-
-
