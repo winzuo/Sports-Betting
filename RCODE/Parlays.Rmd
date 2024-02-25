@@ -12,15 +12,15 @@ library(dplyr)
 ```{r}
 sortedprofit <- profit[order(profit$Odds, decreasing = FALSE), ]
 
-twopick <- slice_min(profit, profit$Odds, n = 2)
+twopick <- slice_min(profit2, profit$Odds, n = 2)
 
-threepick <- slice_min(profit, profit$Odds, n = 3)
+threepick <- slice_min(profit2, profit$Odds, n = 3)
 
-fourpick <- slice_min(profit, profit$Odds, n = 4)
+fourpick <- slice_min(profit2, profit$Odds, n = 4)
 
-fivepick <- slice_min(profit, profit$Odds, n = 5)
+fivepick <- slice_min(profit2, profit$Odds, n = 5)
 
-sixpick <- slice_min(profit, profit$Odds, n = 6)
+sixpick <- slice_min(profit2, profit$Odds, n = 6)
 
 twopick
 threepick
@@ -136,21 +136,20 @@ if (over_under == "Over") {
 }
 ```
 
-
 ```{r}
 score <- 0
-for ((i in 1:2) in twopick) {
-  result <- check_result(fivepick$Player[i], fivepick$RowName[i], fivepick$Line[i], fivepick$Over_Under[i])
-  score += result
+for (i in c(1:2)) {
+  result <- check_result(twopick$Player[i], twopick$RowName[i], as.numeric(twopick$Line[i]), twopick$Over_Under[i])
+  score <- score + result
 }
 twoman(1, score)
 ```
 
 ```{r}
 score <- 0
-for ((i in 1:3) in threepick) {
-  result <- check_result(fivepick$Player[i], fivepick$RowName[i], fivepick$Line[i], fivepick$Over_Under[i])
-  score += result
+for (i in c(1:3)) {
+  result <- check_result(threepick$Player[i], threepick$RowName[i], as.numeric(threepick$Line[i]), threepick$Over_Under[i])
+  score <- score + result
 }
 threemanflex(1, score)
 threemanpower(1, score)
@@ -158,9 +157,9 @@ threemanpower(1, score)
 
 ```{r}
 score <- 0
-for ((i in 1:4) in fourpick) {
-  result <- check_result(fivepick$Player[i], fivepick$RowName[i], fivepick$Line[i], fivepick$Over_Under[i])
-  score += result
+for (i in c(1:4)) {
+  result <- check_result(fourpick$Player[i], fourpick$RowName[i], as.numeric(fourpick$Line[i]), fourpick$Over_Under[i])
+  score <- score + result
 }
 fourmanflex(1, score)
 fourmanpower(1, score)
@@ -168,21 +167,20 @@ fourmanpower(1, score)
 
 ```{r}
 score <- 0
-for ((i in 1:5) in fivepick) {
-  result <- check_result(fivepick$Player[i], fivepick$RowName[i], fivepick$Line[i], fivepick$Over_Under[i])
-  score += result
+for (i in c(1:5)) {
+  result <- check_result(fivepick$Player[i], fivepick$RowName[i], as.numeric(fivepick$Line[i]), fivepick$Over_Under[i])
+  score <- score + result
 }
 fiveman(1, score)
 ```
 
+
 ```{r}
 score <- 0
-for ((i in 1:6) in sixpick) {
-  result <- check_result(fivepick$Player[i], fivepick$RowName[i], fivepick$Line[i], fivepick$Over_Under[i])
-  score += result
+for (i in c(1:6)) {
+  result <- check_result(sixpick$Player[i], sixpick$RowName[i], as.numeric(sixpick$Line[i]), sixpick$Over_Under[i])
+  score <- score + result
 }
 sixman(1, score)
 ```
-
-
 
