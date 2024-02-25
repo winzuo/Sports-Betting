@@ -294,127 +294,20 @@ links <- websites[-c(227)]
 links
 ```
 
-```{r}
-data <- data.frame(playerlist, links)
-colnames(data) <- c("Player", "Link")
-data
-```
-
-```{r}
-scoresandodds <- html_table(tables[2])
-scoresandodds[[1]]
-Consensus <- list()
-for (i in seq_len(nrow(scoresandodds[[1]]))) {
-
-  if (scoresandodds[[1]]$Under[i] <= -125) {
-
-    Consensus[[i]] <- list(
-      RowName = scoresandodds[[1]]$Consensus[i],
-      Line = scoresandodds[[1]]$Line[i],
-      Under = scoresandodds[[1]]$Under[i])
-  }
-}
-for (i in seq_len(nrow(scoresandodds[[1]]))) {
-  if (scoresandodds[[1]]$Over[i] <= -125) {
-    Consensus[[i]] <- list(
-      RowName = scoresandodds[[1]]$Consensus[i],
-      Line = scoresandodds[[1]]$Line[i],
-      Over = scoresandodds[[1]]$Over[i])
-  }
-}
-Consensus <- Filter(Negate(is.null), Consensus)
-Consensus
-```
-
-```{r}
-rownames <- c("Over Points", "Under Points", "Over Rebounds", "Under Rebounds", "Over Assists", "Under Assists", "Over Blocks", "Under Blocks", "Over Steals", "Under Steals", "Over Threes", "Under Threes", "Over PR", "Under PR", "Over PA", "Under PA", "Over PRA", "Under PRA", "Over RA", "Under RA", "Over Turnovers", "Under Turnovers")
-newtable <- data.frame(table1, row.names = rownames)
-retable <- newtable[-c(1:3, 5:11)]
-colnames(retable) <- c("Prizepicks")
-retable$Prizepicks <- str_remove(retable$Prizepicks, " MORE +")
-retable$Prizepicks <- str_remove(retable$Prizepicks, " LESS +")
-retable$Prizepicks <- str_remove(retable$Prizepicks, " \\+")
-retable
-```
 
 
-```{r}
-newtable <- data.frame(table1)
-reretable <- newtable[-c(1:3, 5:11)]
-reretable <- data.frame(reretable[-c(2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22), ])
-colnames(reretable) <- "Prizepicks"
-reretable$Prizepicks <- str_remove(reretable$Prizepicks, " MORE +")
-reretable$Prizepicks <- str_remove(reretable$Prizepicks, " \\+")
-reretable
-```
 
 
-```{r}
-finalrownames <- c("Points", "Rebounds", "Assists", "Blocks", "Steals", "Threes", "Points & Rebounds", "Points & Assists", "Points, Rebounds, Assists", "Rebounds & Assists", "Turnovers")
-final <- data.frame(table2, row.names = finalrownames)
-final <- final[-c(1)]
-final <- cbind (reretable, final)
-final
-```
-
-```{r}
-profit <- list()
-for (i in seq_len(nrow(final))) {
-
-  if (final$Prizepicks[i] == final$Line[i]) {
-    
-    if (final$Over[i]<= -125) {
-      profit[[length(profit)+1]] <- list(
-      RowName = rownames(final)[i],
-      Line = final$Prizepicks[i],
-      Over = final$Over[i])
-    }
-    
-    if (final$Under[i] <= -125) {
-     profit[[length(profit)+1]] <- list(
-        RowName = rownames(final)[i],
-        Line = final$Prizepicks[i],
-        Under = final$Under[i])
-    }
-  }
-}
-profit <- matrix(unlist(t(profit)), byrow=T, 3)
-profit
-```
-```{r}
-application <- function(player, link) {
-  profit <- list()
-  for (i in seq_len(nrow(final))) {
-    if (final$Prizepicks[i] == final$Line[i]) {
-      if (final$Over[i]<= -125) {
-      profit[[length(profit)+1]] <- list(
-        Name = player,
-        RowName = rownames(final)[i],
-        Line = final$Prizepicks[i],
-        Over = final$Over[i])
-    }
-    
-    if (final$Under[i] <= -125) {
-     profit[[length(profit)+1]] <- list(
-       Name = player,
-       RowName = rownames(final)[i],
-       Line = final$Prizepicks[i],
-       Under= final$Under[i])
-    }
-  }
-}
-return(profit)
-}
-```
 
 
-```{r}
-total <- list()
-for (i in seq_len(nrow(data))) {
-  helper <- application(data$Player[i], data$Link[i])
-}
-append(total, help)
-total
-```
+
+
+
+
+
+
+
+
+
 
 
