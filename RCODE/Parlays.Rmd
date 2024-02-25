@@ -30,7 +30,6 @@ sixpick
 ```
 
 ```{r}
-```{r}
 twoman <- function(money, correct) {
   if (correct < 2) {
     return (0 * money)
@@ -111,7 +110,6 @@ sixman <- function(money, correct) {
     return (25 * money)
   }
 }
-```
 ```
 
 ```{r}
