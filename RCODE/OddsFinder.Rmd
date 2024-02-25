@@ -5,10 +5,19 @@ output:
   html_document: default
 date: "2024-01-26"
 ---
-
-
+```{r Packages}
+links <- read.csv("links.csv")
+links <- links[[2]]
+```
+```{r Packages}
+library(xml2)
+library(rvest)
+library(dplyr)
+library(stringr)
+```
 
 ```{r SCORESANDSODDS}
+print("HELLLLLLLOOOOO")
 profit <- list()
 for (link in links) {
   theurl <- link
@@ -61,7 +70,8 @@ for (link in links) {
         Player = player_name,
         RowName = finalrownames[i],
         Line = final$Prizepicks[i],
-        Over = final$Over[i])
+        Over = final$Over[i]),
+        Date = formatted_date
       }
     
     if (final$Under[i] <= -138) {
@@ -69,7 +79,8 @@ for (link in links) {
         Player = player_name,
         RowName = finalrownames[i],
         Line = final$Prizepicks[i],
-        Under = final$Under[i])
+        Under = final$Under[i]),
+        Date = formatted_date
       }
     }
   }
