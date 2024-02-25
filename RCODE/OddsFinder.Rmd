@@ -61,7 +61,8 @@ for (link in links) {
         Player = player_name,
         RowName = finalrownames[i],
         Line = final$Prizepicks[i],
-        Over = final$Over[i])
+        Over = final$Over[i],
+        Date = formatted_date)
       }
     
     if (final$Under[i] <= -138) {
