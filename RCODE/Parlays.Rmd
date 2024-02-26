@@ -12,15 +12,15 @@ library(dplyr)
 ```{r}
 sortedprofit <- profit[order(profit$Odds, decreasing = FALSE), ]
 
-twopick <- slice_min(profit2, profit2$Odds, n = 2)
+twopick <- slice_min(profit2, profit2$Odds, n = 2, with_ties = FALSE)
 
-threepick <- slice_min(profit2, profit2$Odds, n = 3)
+threepick <- slice_min(profit2, profit2$Odds, n = 3, with_ties = FALSE)
 
-fourpick <- slice_min(profit2, profit2$Odds, n = 4)
+fourpick <- slice_min(profit2, profit2$Odds, n = 4, with_ties = FALSE)
 
-fivepick <- slice_min(profit2, profit2$Odds, n = 5)
+fivepick <- slice_min(profit2, profit2$Odds, n = 5, with_ties = FALSE)
 
-sixpick <- slice_min(profit2, profit2$Odds, n = 6)
+sixpick <- slice_min(profit2, profit2$Odds, n = 6, with_ties = FALSE)
 
 twopick
 threepick
