@@ -10,18 +10,19 @@ library(dplyr)
 ```
 
 ```{r}
-sortedprofit <- profit[order(profit$Odds, decreasing = FALSE), ]
+sortedprofit <- slice_min(profit2, profit2$Odds, n = 10, with_ties = FALSE)
 
 twopick <- slice_min(profit2, profit2$Odds, n = 2, with_ties = FALSE)
 
-threepick <- slice_min(profit2, profit2$Odds, n = 3, with_ties = FALSE)
+threepick <- sortedprofit[sample(nrow(sortedprofit), 3), ]
 
-fourpick <- slice_min(profit2, profit2$Odds, n = 4, with_ties = FALSE)
+fourpick <- sortedprofit[sample(nrow(sortedprofit), 4), ]
 
-fivepick <- slice_min(profit2, profit2$Odds, n = 5, with_ties = FALSE)
+fivepick <- sortedprofit[sample(nrow(sortedprofit), 5), ]
 
-sixpick <- slice_min(profit2, profit2$Odds, n = 6, with_ties = FALSE)
+sixpick <- sortedprofit[sample(nrow(sortedprofit), 6), ]
 
+sortedprofit
 twopick
 threepick
 fourpick
