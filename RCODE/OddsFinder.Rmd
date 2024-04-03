@@ -161,7 +161,7 @@ library(tools)
 colnames(prizepicks_nba)[colnames(prizepicks_nba) == "participant_name"] <- "Player"
 
 # Sample player names
-profit
+profit                                           
 prizepicks_nba
 
 # Remove dashes and capitalize player names
@@ -185,7 +185,249 @@ for (i in seq_len(nrow(profit))) {
 
 # Update profit with matched rows
 profit2 <- matched_rows
+
 print(profit2[order(profit2$Odds, decreasing = FALSE), ]   )
 
+log_parlay(profit2)
+parlays_df
 
+write.csv(parlays_df, file = "parlays.csv")
+
+
+```
+
+
+
+
+
+
+
+```{r}
+check_result <- function(player_name, Category, line, over_under) {
+  
+newurl <- getWebsite(player_name)
+
+if (player_name == "TIM HARDAWAY JR."){
+  newurl <- "https://www.scoresandodds.com/prop-bets/16879/tim-hardaway"
+}
+if (player_name == "TYRESE MAXEY"){
+  newurl <- "https://www.scoresandodds.com/prop-bets/2439150/tyrese-maxey"
+}
+if (player_name == "Michael Porter Jr."){
+  newurl <- "https://www.scoresandodds.com/prop-bets/409154/michael-porter"
+}
+if (Category == "Threes"){
+  Category <- "3 Pointers"
+}
+if (Category == "Points, Rebounds, Assists"){
+  Category <- "Points, Rebounds, & Assists"
+}
+file<-read_html(newurl)
+tables<-html_nodes(file, "table")
+table2 <- html_table(tables[2], fill = TRUE)
+table2 <- data.frame(table2)
+actual_value <- as.numeric(table2$Actual[table2$Consensus == Category])
+if (is.na(all(table2$Actual == 0))){
+    return (-1)
+}
+if (all(table2$Actual == 0)){
+    return (-1)
+}
+
+if (is.na(actual_value)){
+    actual_value=0
+}
+line <- as.numeric(line)
+if (over_under == "Over") {
+    if (actual_value > line) {
+      return(1)
+    } else {
+      return(0)
+    }
+  } else {
+    if (actual_value < line) {
+      return(1)
+    } else {
+      return(0)
+    }
+  }
+}  
+
+
+
+parlay_checker <- function(parlay){
+    result <- 0
+    for (i in 1:nrow(parlay)){
+      if (check_result(parlay[i,1],parlay[i,2],parlay[i,3],parlay[i,4])==-1) {
+        next
+      }
+      
+      result <- check_result(parlay[i,1],parlay[i,2],parlay[i,3],parlay[i,4]) + result
+    
+    }
+    return(result)
+}
+
+
+
+
+result_for_players <- function(date_given) {
+  parlay_number <- subset(parlays_df, Date == date_given)[1,6]
+  index <- ((parlay_number-1)*5) + 1
+  for (i in index:nrow(parlays_df)) {
+  
+  
+    parlays_df$Player
+    result <- check_result(parlays_df[i,1], parlays_df[i,2], parlays_df[i,3], parlays_df[i,4])
+    parlays_df$Player_Result[i] <- result
+  }
+}
+
+result_for_parlays <- function(date_given) {
+  parlay_number <- subset(parlays_df, Date == date_given)[1,6]
+  for (i in parlay_number:parlays_df[nrow(parlays_df),6]) {
+  
+    print(i)
+    result <- parlay_checker(subset(parlays_df, ParlayID == i))
+    parlays_df$Parlay_Result[parlays_df$ParlayID == i] <<- result
+  }
+}
+
+has_minus_one <- function(parlay_id) {
+  player_results <- parlays_df$Player_Result[parlays_df$ParlayID == parlay_id]
+  if (-1 %in% player_results) {
+    return(TRUE)
+  } else {
+    return(FALSE)
+  }
+}
+```
+
+
+
+
+
+```{r For finding result of every player}
+parlay_number <- subset(parlays_df, Date == Sys.Date())[1,6]
+  index <- ((parlay_number-1)*5) + 1
+for (i in index:nrow(parlays_df)) {
+  
+    print(parlays_df[i,]$Player)
+    result <- check_result(parlays_df[i,1], parlays_df[i,2], parlays_df[i,3], parlays_df[i,4])
+    print(result)
+    parlays_df$Player_Result[i] <- result
+}
+
+
+```
+
+
+
+
+```{r For result of every parlay}
+parlay_number <- subset(parlays_df, Date == Sys.Date())[1,6]
+  for (i in parlay_number:parlays_df[nrow(parlays_df),6]) {
+  
+    print(i)
+    result <- parlay_checker(subset(parlays_df, ParlayID == i))
+    parlays_df$Parlay_Result[parlays_df$ParlayID == i] <- result
+  }
+```
+
+
+
+
+
+```{r For Calculating Returns}
+parlays_df[nrow(parlays_df),6]
+x<- 5
+calculate_roi <- function(parlays_df) {
+  ROI <- 0
+  bank_counter <- 0
+  for (i in 1:parlays_df[nrow(parlays_df),6]){
+    print(parlays_df$Parlay_Result[parlays_df$ParlayID == i][1])
+    parlays_results <- parlays_df$Parlay_Result[parlays_df$ParlayID == i][1]
+    if (has_minus_one(i) & parlays_results== 4){
+      ROI <- (ROI + 5*x )
+      bank_counter <- bank_counter +5
+    }else if (has_minus_one(i) & parlays_results == 3) {
+      print(bank_counter)
+      ROI <- (ROI + 1.5*x)
+      bank_counter <- bank_counter +5
+      print(bank_counter)
+    }else if (has_minus_one(i) & parlays_results <3){
+      bank_counter<- bank_counter+5
+    }
+    if ( !has_minus_one(i) & parlays_results == 5) {
+      ROI <- (ROI + 10*x )
+      bank_counter <- bank_counter +5
+    } else if (!has_minus_one(i) & parlays_results == 4) {
+      print(bank_counter)
+      ROI <- (ROI + 2*x)
+      bank_counter <- bank_counter +5
+      print(bank_counter)
+    } else if (!has_minus_one(i) & parlays_results == 3) {
+      ROI <- (ROI +0.4*x)
+      bank_counter <- bank_counter +5
+    } else if (!has_minus_one(i)){
+      ROI <- ROI 
+      bank_counter <- bank_counter +5
+    }
+  }
+  print(ROI)
+  ROI <- (ROI-bank_counter)/bank_counter
+  print(bank_counter)
+  
+
+  return(ROI)
+ 
+} 
+calculate_roi(parlays_df)
+
+```
+
+
+
+
+
+```{r LOG Function}
+log_parlay <- function(df) {
+  count <<- parlays_df[nrow(parlays_df),6] + 1
+  if (nrow(df) >= 5) {
+    df <- df[order(df$Odds, decreasing = FALSE), ]
+    df_unique <- distinct(df, Player, .keep_all = TRUE)  # Remove duplicate player names
+    df_unique <- na.omit(df_unique)
+    df_unique <- filter_non_existing_rows(parlays_df, df_unique)
+    parlay_props <- df_unique[order(df_unique$Odds, decreasing = FALSE), ][1:5, ]
+    parlay_props <- na.omit(parlay_props)
+    new_row <- data.frame(Player = parlay_props$Player,
+                          RowName = parlay_props$RowName,
+                          Line = parlay_props$Line,
+                          Over_Under = parlay_props$Over_Under,
+                          Odds = parlay_props$Odds,
+                          ParlayID = rep(count, nrow(parlay_props)), 
+                          Date = rep(as.character(Sys.Date()), nrow(parlay_props)), stringsAsFactors = FALSE, Player_Result = 0, Parlay_Result = 0)
+    if (nrow(new_row) >= 5) {
+      parlays_df <<- rbind(parlays_df, new_row)
+    }
+    return(new_row)
+  } else {
+    return(NULL)
+  }
+}
+
+library(dplyr)
+filter_non_existing_rows <- function(df1, df2) {
+  i <- 1
+  while (i <= nrow(df2)) {
+    if (nrow(filter(df1, Player == df2[i, 1], RowName == df2[i, 2], Line == df2[i, 3], Over_Under == df2[i, 4], Date == df2[i, 6])) > 0) {
+      df2 <- df2[-i, ]
+    } else {
+      i <- i + 1
+    }
+  }
+  return(df2)
+}
+profit2
+filter_non_existing_rows(profit2, profit2[1,])
 ```
