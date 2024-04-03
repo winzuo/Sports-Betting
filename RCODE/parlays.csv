@@ -1,0 +1,861 @@
+"","Player","RowName","Line","Over_Under","Odds","ParlayID","Date","Player_Result","Parlay_Result"
+"1","ANTHONY EDWARDS","Threes","2.5","Over",-140,1,"2024-03-07","1",4
+"2","AARON GORDON","Rebounds","6.5","Under",-140,1,"2024-03-07","0",4
+"3","JADEN MCDANIELS","Points & Assists","12.5","Over",-135,1,"2024-03-07","1",4
+"4","JAYSON TATUM","Assists","4.5","Over",-134,1,"2024-03-07","1",4
+"5","DENNIS SCHRODER","Assists","6.5","Over",-134,1,"2024-03-07","1",4
+"6","CALEB MARTIN","Rebounds","4.5","Under",-134,2,"2024-03-07","1",4
+"7","T.J. MCCONNELL","Points","8.5","Under",-134,2,"2024-03-07","1",4
+"8","JOSH GREEN","Points","7.5","Under",-132,2,"2024-03-07","1",4
+"9","NIKOLA JOKIC","Assists","8.5","Over",-130,2,"2024-03-07","1",4
+"10","JIMMY BUTLER","Rebounds","5.5","Over",-130,2,"2024-03-07","0",4
+"11","JRUE HOLIDAY","Points","11.5","Under",-130,3,"2024-03-07","0",1
+"12","DOMANTAS SABONIS","Rebounds & Assists","23.5","Under",-130,3,"2024-03-07","0",1
+"13","NIKOLA VUCEVIC","Steals","0.5","Over",-130,3,"2024-03-07","0",1
+"14","MICHAEL PORTER JR.","Rebounds & Assists","8.5","Under",-130,3,"2024-03-07","1",1
+"15","TRE JONES","Rebounds","3.5","Under",-130,3,"2024-03-07","0",1
+"16","KYLE KUZMA","Assists","3.5","Over",-142,4,"2024-03-08","1",3
+"17","ANTHONY EDWARDS","Rebounds","5.5","Under",-140,4,"2024-03-08","1",3
+"18","FRED VANVLEET","Assists","7.5","Under",-138,4,"2024-03-08","0",3
+"19","DENI AVDIJA","Rebounds & Assists","12.5","Under",-136,4,"2024-03-08","0",3
+"20","NAJI MARSHALL","Rebounds","3.5","Over",-135,4,"2024-03-08","1",3
+"21","BUDDY HIELD","Rebounds & Assists","7.5","Under",-148,5,"2024-03-08","1",3
+"22","CALEB MARTIN","Threes","1.5","Under",-146,5,"2024-03-08","1",3
+"23","CARIS LEVERT","Rebounds","4.5","Under",-144,5,"2024-03-08","0",3
+"24","GIANNIS ANTETOKOUNMPO","Assists","6.5","Over",-138,5,"2024-03-08","1",3
+"25","NICK RICHARDS","Steals","0.5","Under",-136,5,"2024-03-08","0",3
+"26","ANFERNEE SIMONS","Rebounds","4.5","Under",-154,6,"2024-03-08","1",2
+"27","JORDAN GOODWIN","Assists","5.5","Under",-140,6,"2024-03-08","1",2
+"28","GIANNIS ANTETOKOUNMPO","Rebounds","12.5","Under",-134,6,"2024-03-08","0",2
+"29","JERAMI GRANT","Assists","3.5","Under",-132,6,"2024-03-08","DNP",2
+"30","JIMMY BUTLER","Rebounds & Assists","11.5","Under",-130,6,"2024-03-08","0",2
+"31","AYO DOSUNMU","Rebounds & Assists","8.5","Under",-146,7,"2024-03-09","1",1
+"32","RJ BARRETT","Assists","4.5","Under",-136,7,"2024-03-09","-1",1
+"33","DANIEL GAFFORD","Rebounds","7.5","Over",-136,7,"2024-03-09","0",1
+"34","JONATHAN KUMINGA","Assists","2.5","Over",-135,7,"2024-03-09","0",1
+"35","DEMAR DEROZAN","Rebounds","4.5","Under",-134,7,"2024-03-09","0",1
+"36","MICHAEL PORTER JR.","Threes","2.5","Over",-132,8,"2024-03-09","1",3
+"37","TRE JONES","Points & Assists","15.5","Under",-132,8,"2024-03-09","0",3
+"38","LUKA DONCIC","Assists","10.5","Under",-130,8,"2024-03-09","1",3
+"39","KRISTAPS PORZINGIS","Blocks","1.5","Under",-130,8,"2024-03-09","-1",3
+"40","NIKOLA VUCEVIC","Rebounds","11.5","Under",-130,8,"2024-03-09","1",3
+"41","DEMAR DEROZAN","Points, Rebounds, Assists","33.5","Under",-142,9,"2024-03-09","0",1
+"42","JOHN COLLINS","Steals","0.5","Over",-130,9,"2024-03-09","0",1
+"43","KELLY OLYNYK","Assists","4.5","Over",-130,9,"2024-03-09","1",1
+"44","JALEN DUREN","Blocks","0.5","Over",-130,9,"2024-03-09","0",1
+"45","DORIAN FINNEY SMITH","Blocks","0.5","Over",-130,9,"2024-03-09","0",1
+"46","ZACH COLLINS","Rebounds","7.5","Under",-146,10,"2024-03-09","1",4
+"47","JAMAL MURRAY","Rebounds & Assists","11.5","Under",-132,10,"2024-03-09","1",4
+"48","NICK RICHARDS","Points","10.5","Under",-132,10,"2024-03-09","0",4
+"49","KENTAVIOUS CALDWELL POPE","Points & Rebounds","12.5","Over",-130,10,"2024-03-09","1",4
+"50","TERANCE MANN","Points & Assists","10.5","Under",-130,10,"2024-03-09","1",4
+"51","KLAY THOMPSON","Rebounds","3.5","Under",-146,11,"2024-03-09","1",5
+"52","ZACH COLLINS","Rebounds & Assists","11.5","Under",-138,11,"2024-03-09","1",5
+"53","OCHAI AGBAJI","Points","8.5","Under",-136,11,"2024-03-09","1",5
+"54","DORIAN FINNEY SMITH","Points & Rebounds","15.5","Under",-130,11,"2024-03-09","1",5
+"55","GRANT WILLIAMS","Rebounds & Assists","8.5","Under",-130,11,"2024-03-09","1",5
+"56","OCHAI AGBAJI","Steals","0.5","Over",-135,12,"2024-03-09","1",4
+"57","AYO DOSUNMU","Rebounds","3.5","Under",-134,12,"2024-03-09","1",4
+"58","NIKOLA JOKIC","Assists","9.5","Under",-132,12,"2024-03-09","1",4
+"59","TERANCE MANN","Points","7.5","Over",-132,12,"2024-03-09","0",4
+"60","NORMAN POWELL","Points & Assists","13.5","Over",-130,12,"2024-03-09","1",4
+"61","JONAS VALANCIUNAS","Blocks","0.5","Over",-150,13,"2024-03-10","1",3
+"62","DARIUS GARLAND","Assists","7.5","Under",-140,13,"2024-03-10","1",3
+"63","MIKAL BRIDGES","Rebounds & Assists","8.5","Under",-132,13,"2024-03-10","0",3
+"64","DENI AVDIJA","Steals","0.5","Over",-132,13,"2024-03-10","1",3
+"65","CJ MCCOLLUM","Assists","3.5","Over",-130,13,"2024-03-10","0",3
+"66","JOSH HART","Threes","1.5","Under",-130,14,"2024-03-10","1",3
+"67","CALEB MARTIN","Points & Assists","13.5","Under",-130,14,"2024-03-10","0",3
+"68","LUKE KENNARD","Points","12.5","Under",-130,14,"2024-03-10","1",3
+"69","T.J. MCCONNELL","Points","7.5","Over",-130,14,"2024-03-10","1",3
+"70","DORIAN FINNEY SMITH","Points & Assists","10.5","Under",-130,14,"2024-03-10","0",3
+"71","KYLE ANDERSON","Assists","5.5","Over",-140,15,"2024-03-10","-1",2
+"72","KYLE KUZMA","Rebounds","7.5","Under",-134,15,"2024-03-10","0",2
+"73","ANTHONY EDWARDS","Rebounds & Assists","11.5","Under",-132,15,"2024-03-10","0",2
+"74","MYLES TURNER","Rebounds & Assists","7.5","Over",-130,15,"2024-03-10","1",2
+"75","D'ANGELO RUSSELL","Rebounds & Assists","8.5","Over",-130,15,"2024-03-10","1",2
+"76","DEJOUNTE MURRAY","Assists","7.5","Over",-140,16,"2024-03-10","1",4
+"77","ANTHONY EDWARDS","Rebounds","6.5","Under",-134,16,"2024-03-10","0",4
+"78","MIKAL BRIDGES","Threes","2.5","Over",-132,16,"2024-03-10","1",4
+"79","JALEN BRUNSON","Assists","6.5","Over",-130,16,"2024-03-10","1",4
+"80","JIMMY BUTLER","Rebounds","6.5","Under",-130,16,"2024-03-10","1",4
+"81","SHAI GILGEOUS ALEXANDER","Rebounds & Assists","11.5","Over",-136,17,"2024-03-10","0",2
+"82","PAOLO BANCHERO","Rebounds & Assists","13.5","Under",-130,17,"2024-03-10","1",2
+"83","HARRISON BARNES","Points & Assists","11.5","Over",-130,17,"2024-03-10","0",2
+"84","TOBIAS HARRIS","Assists","3.5","Under",-130,17,"2024-03-10","1",2
+"85","DILLON BROOKS","Points & Assists","11.5","Over",-130,17,"2024-03-10","0",2
+"86","ALPEREN SENGUN","Rebounds & Assists","15.5","Under",-136,18,"2024-03-10","1",2
+"87","CALEB MARTIN","Blocks","0.5","Under",-130,18,"2024-03-10","0",2
+"88","ISAIAH JOE","Threes","1.5","Under",-130,18,"2024-03-10","1",2
+"89","DENI AVDIJA","Rebounds & Assists","12.5","Over",-130,18,"2024-03-10","0",2
+"90","T.J. MCCONNELL","Rebounds","2.5","Under",-130,18,"2024-03-10","0",2
+"91","DENNIS SCHRODER","Assists","6.5","Under",-140,19,"2024-03-10","0",3
+"92","JOSH GIDDEY","Rebounds & Assists","10.5","Over",-138,19,"2024-03-10","1",3
+"93","ANTHONY EDWARDS","Assists","4.5","Over",-134,19,"2024-03-10","1",3
+"94","JALEN WILLIAMS","Rebounds & Assists","8.5","Under",-130,19,"2024-03-10","1",3
+"95","AARON WIGGINS","Threes","0.5","Over",-130,19,"2024-03-10","0",3
+"96","JAMAL MURRAY","Points, Rebounds, Assists","34.5","Under",-138,20,"2024-03-11","0",1
+"97","CHRIS PAUL","Assists","8.5","Under",-138,20,"2024-03-11","1",1
+"98","NICK RICHARDS","Rebounds","9.5","Under",-138,20,"2024-03-11","0",1
+"99","DEANDRE AYTON","Rebounds","11.5","Under",-136,20,"2024-03-11","0",1
+"100","KYRIE IRVING","Rebounds","4.5","Over",-132,20,"2024-03-11","0",1
+"101","KELLY OLYNYK","Assists","6.5","Under",-132,21,"2024-03-11","1",4
+"102","ANFERNEE SIMONS","Rebounds & Assists","9.5","Under",-130,21,"2024-03-11","1",4
+"103","AARON GORDON","Threes","0.5","Under",-130,21,"2024-03-11","0",4
+"104","TRE JONES","Rebounds","3.5","Over",-130,21,"2024-03-11","1",4
+"105","ALEX CARUSO","Points","10.5","Under",-130,21,"2024-03-11","1",4
+"106","GRANT WILLIAMS","Rebounds & Assists","7.5","Over",-140,22,"2024-03-11","0",1
+"107","RJ BARRETT","Rebounds & Assists","10.5","Under",-136,22,"2024-03-11","0",1
+"108","ROYCE O'NEALE","Points","7.5","Under",-134,22,"2024-03-11","1",1
+"109","KELDON JOHNSON","Steals","0.5","Over",-130,22,"2024-03-11","0",1
+"110","ZACH COLLINS","Rebounds","4.5","Under",-130,22,"2024-03-11","0",1
+"111","KELLY OLYNYK","Rebounds","6.5","Over",-138,23,"2024-03-11","0",4
+"112","AYO DOSUNMU","Rebounds","3.5","Over",-138,23,"2024-03-11","1",4
+"113","KENTAVIOUS CALDWELL POPE","Points & Rebounds","13.5","Under",-130,23,"2024-03-11","1",4
+"114","GRAYSON ALLEN","Rebounds","3.5","Under",-130,23,"2024-03-11","1",4
+"115","AL HORFORD","Points, Rebounds, Assists","18.5","Over",-130,23,"2024-03-11","1",4
+"116","ALEX CARUSO","Threes","1.5","Over",-148,24,"2024-03-11","0",1
+"117","CHRISTIAN BRAUN","Points","6.5","Under",-132,24,"2024-03-11","1",1
+"118","KELLY OLYNYK","Blocks","0.5","Over",-130,24,"2024-03-11","0",1
+"119","QUENTIN GRIMES","Points","6.5","Over",-130,24,"2024-03-11","0",1
+"120","ISAAC OKORO","Points & Assists","14.5","Under",-130,24,"2024-03-11","0",1
+"121","LUKA DONCIC","Rebounds","9.5","Under",-134,25,"2024-03-11","0",3
+"122","DRAYMOND GREEN","Rebounds & Assists","14.5","Under",-132,25,"2024-03-11","1",3
+"123","JAYSON TATUM","Rebounds & Assists","13.5","Over",-130,25,"2024-03-11","0",3
+"124","TIM HARDAWAY JR.","Points & Assists","11.5","Under",-130,25,"2024-03-11","1",3
+"125","TRE JONES","Points & Rebounds","12.5","Under",-130,25,"2024-03-11","1",3
+"126","JALEN GREEN","Rebounds & Assists","9.5","Under",-138,26,"2024-03-12","0",2
+"127","ANDREW NEMBHARD","Points","8.5","Under",-138,26,"2024-03-12","0",2
+"128","DONTE DIVINCENZO","Threes","3.5","Over",-138,26,"2024-03-12","1",2
+"129","DAMIAN LILLARD","Rebounds & Assists","11.5","Under",-136,26,"2024-03-12","1",2
+"130","JAYLEN BROWN","Assists","3.5","Under",-136,26,"2024-03-12","-1",2
+"131","MYLES TURNER","Rebounds & Assists","8.5","Over",-135,27,"2024-03-12","0",2
+"132","SHAI GILGEOUS ALEXANDER","Steals","1.5","Under",-130,27,"2024-03-12","0",2
+"133","GIANNIS ANTETOKOUNMPO","Rebounds & Assists","18.5","Under",-130,27,"2024-03-12","1",2
+"134","ANTHONY EDWARDS","Blocks","0.5","Under",-130,27,"2024-03-12","1",2
+"135","FRED VANVLEET","Steals","1.5","Under",-130,27,"2024-03-12","0",2
+"136","TYUS JONES","Points, Rebounds, Assists","24.5","Under",-140,28,"2024-03-12","1",4
+"137","MALIK MONK","Assists","5.5","Under",-132,28,"2024-03-12","1",4
+"138","GIANNIS ANTETOKOUNMPO","Assists","6.5","Under",-130,28,"2024-03-12","1",4
+"139","HARRISON BARNES","Threes","1.5","Under",-130,28,"2024-03-12","0",4
+"140","RUDY GOBERT","Steals","0.5","Over",-130,28,"2024-03-12","1",4
+"141","SHAI GILGEOUS ALEXANDER","Assists","6.5","Under",-132,29,"2024-03-12","1",4
+"142","TOBIAS HARRIS","Blocks","0.5","Under",-132,29,"2024-03-12","1",4
+"143","WALKER KESSLER","Points","8.5","Over",-132,29,"2024-03-12","0",4
+"144","JORDAN POOLE","Assists","4.5","Under",-130,29,"2024-03-12","1",4
+"145","LUKE KENNARD","Steals","0.5","Over",-130,29,"2024-03-12","1",4
+"146","MALIK MONK","Rebounds & Assists","9.5","Under",-142,30,"2024-03-12","0",1
+"147","TYUS JONES","Threes","1.5","Over",-138,30,"2024-03-12","0",1
+"148","MYLES TURNER","Steals","0.5","Under",-135,30,"2024-03-12","0",1
+"149","JALEN SMITH","Blocks","0.5","Over",-135,30,"2024-03-12","1",1
+"150","DE'AARON FOX","Rebounds","4.5","Under",-132,30,"2024-03-12","0",1
+"151","JOSH GIDDEY","Assists","4.5","Under",-134,31,"2024-03-12","1",4
+"152","DAMIAN LILLARD","Threes","3.5","Under",-130,31,"2024-03-12","1",4
+"153","BOBBY PORTIS","Steals","0.5","Over",-130,31,"2024-03-12","0",4
+"154","TRE JONES","Points","8.5","Over",-130,31,"2024-03-12","1",4
+"155","MALIK BEASLEY","Points","12.5","Under",-130,31,"2024-03-12","1",4
+"156","JORDAN POOLE","Rebounds & Assists","8.5","Under",-140,32,"2024-03-12","1",4
+"157","GIANNIS ANTETOKOUNMPO","Rebounds & Assists","19.5","Under",-130,32,"2024-03-12","1",4
+"158","JOHN COLLINS","Rebounds & Assists","11.5","Under",-130,32,"2024-03-12","1",4
+"159","MALIK BEASLEY","Points & Assists","13.5","Over",-130,32,"2024-03-12","0",4
+"160","AARON NESMITH","Blocks","0.5","Over",-130,32,"2024-03-12","1",4
+"161","MALIK MONK","Rebounds","3.5","Under",-140,33,"2024-03-12","0",4
+"162","JOSH GIDDEY","Steals","0.5","Under",-135,33,"2024-03-12","1",4
+"163","TYUS JONES","Assists","8.5","Over",-134,33,"2024-03-12","1",4
+"164","KYLE KUZMA","Rebounds","8.5","Under",-132,33,"2024-03-12","1",4
+"165","JRUE HOLIDAY","Threes","2.5","Under",-132,33,"2024-03-12","1",4
+"166","DAMIAN LILLARD","Threes","3.5","Over",-132,34,"2024-03-12","0",2
+"167","JRUE HOLIDAY","Rebounds","4.5","Over",-132,34,"2024-03-12","1",2
+"168","MIKE CONLEY","Assists","5.5","Over",-132,34,"2024-03-12","0",2
+"169","OBI TOPPIN","Points","7.5","Over",-132,34,"2024-03-12","1",2
+"170","DOMANTAS SABONIS","Assists","8.5","Over",-130,34,"2024-03-12","0",2
+"171","SHAI GILGEOUS ALEXANDER","Rebounds & Assists","12.5","Over",-136,35,"2024-03-12","1",2
+"172","FRED VANVLEET","Rebounds & Assists","12.5","Under",-136,35,"2024-03-12","0",2
+"173","JAMES HARDEN","Assists","8.5","Under",-134,35,"2024-03-12","1",2
+"174","KEVIN HUERTER","Points & Assists","11.5","Under",-132,35,"2024-03-12","0",2
+"175","ANDREW NEMBHARD","Rebounds","2.5","Under",-132,35,"2024-03-12","0",2
+"176","AARON GORDON","Steals","0.5","Over",-142,36,"2024-03-13","0",2
+"177","RUI HACHIMURA","Threes","1.5","Under",-142,36,"2024-03-13","0",2
+"178","AUSTIN REAVES","Rebounds","4.5","Under",-140,36,"2024-03-13","0",2
+"179","KYRIE IRVING","Rebounds & Assists","8.5","Over",-138,36,"2024-03-13","1",2
+"180","NIKOLA JOKIC","Assists","8.5","Under",-136,36,"2024-03-13","1",2
+"181","JERAMI GRANT","Threes","1.5","Over",-136,37,"2024-03-13","-1",2
+"182","KENTAVIOUS CALDWELL POPE","Points","9.5","Under",-136,37,"2024-03-13","1",2
+"183","JIMMY BUTLER","Rebounds","5.5","Over",-132,37,"2024-03-13","0",2
+"184","BAM ADEBAYO","Rebounds","10.5","Under",-132,37,"2024-03-13","0",2
+"185","MIKAL BRIDGES","Assists","3.5","Under",-130,37,"2024-03-13","1",2
+"186","JAMAL MURRAY","Rebounds","4.5","Under",-144,38,"2024-03-13","1",1
+"187","DE'AARON FOX","Rebounds","4.5","Over",-142,38,"2024-03-13","0",1
+"188","ANFERNEE SIMONS","Assists","5.5","Under",-140,38,"2024-03-13","0",1
+"189","IMMANUEL QUICKLEY","Assists","8.5","Over",-140,38,"2024-03-13","0",1
+"190","DEANDRE AYTON","Rebounds","12.5","Under",-138,38,"2024-03-13","0",1
+"191","ALEX CARUSO","Rebounds & Assists","7.5","Under",-136,39,"2024-03-13","0",3
+"192","PAOLO BANCHERO","Rebounds","7.5","Under",-132,39,"2024-03-13","1",3
+"193","FRANZ WAGNER","Rebounds & Assists","8.5","Over",-132,39,"2024-03-13","1",3
+"194","CHRIS PAUL","Rebounds & Assists","12.5","Under",-132,39,"2024-03-13","1",3
+"195","NIKOLA VUCEVIC","Rebounds","11.5","Under",-130,39,"2024-03-13","0",3
+"196","ANDREW NEMBHARD","Rebounds","2.5","Under",-148,40,"2024-03-13","0",2
+"197","DEMAR DEROZAN","Rebounds","4.5","Under",-138,40,"2024-03-13","0",2
+"198","DRAYMOND GREEN","Points & Assists","14.5","Under",-132,40,"2024-03-13","-1",2
+"199","MYLES TURNER","Points & Assists","17.5","Over",-130,40,"2024-03-13","1",2
+"200","MARKELLE FULTZ","Steals","0.5","Over",-130,40,"2024-03-13","1",2
+"201","ANFERNEE SIMONS","Threes","3.5","Under",-142,41,"2024-03-13","0",2
+"202","TERRY ROZIER","Assists","4.5","Over",-138,41,"2024-03-13","0",2
+"203","DRAYMOND GREEN","Rebounds & Assists","13.5","Under",-138,41,"2024-03-13","-1",2
+"204","DE'AARON FOX","Assists","5.5","Over",-132,41,"2024-03-13","1",2
+"205","JIMMY BUTLER","Rebounds & Assists","11.5","Under",-132,41,"2024-03-13","1",2
+"206","MYLES TURNER","Rebounds","7.5","Under",-140,42,"2024-03-13","1",2
+"207","KEVIN HUERTER","Rebounds","3.5","Over",-134,42,"2024-03-13","-1",2
+"208","DENNIS SCHRODER","Assists","6.5","Under",-134,42,"2024-03-13","1",2
+"209","JADEN IVEY","Rebounds","3.5","Over",-130,42,"2024-03-13","0",2
+"210","QUENTIN GRIMES","Points & Assists","10.5","Over",-130,42,"2024-03-13","0",2
+"211","PAOLO BANCHERO","Assists","5.5","Under",-144,43,"2024-03-13","0",4
+"212","IMMANUEL QUICKLEY","Assists","8.5","Under",-144,43,"2024-03-13","1",4
+"213","AARON NESMITH","Rebounds","4.5","Under",-140,43,"2024-03-13","1",4
+"214","JAMAL MURRAY","Rebounds & Assists","11.5","Under",-138,43,"2024-03-13","1",4
+"215","DE'AARON FOX","Rebounds & Assists","10.5","Over",-136,43,"2024-03-13","1",4
+"216","IMMANUEL QUICKLEY","Rebounds","5.5","Under",-140,44,"2024-03-13","1",4
+"217","JONATHAN KUMINGA","Assists","2.5","Under",-138,44,"2024-03-13","1",4
+"218","JALEN SMITH","Rebounds","5.5","Under",-138,44,"2024-03-13","0",4
+"219","JADEN IVEY","Rebounds & Assists","7.5","Over",-136,44,"2024-03-13","1",4
+"220","BAM ADEBAYO","Assists","3.5","Under",-134,44,"2024-03-13","1",4
+"221","DOMANTAS SABONIS","Rebounds & Assists","22.5","Over",-132,45,"2024-03-13","1",2
+"222","CHRIS PAUL","Threes","1.5","Over",-132,45,"2024-03-13","0",2
+"223","DENNIS SCHRODER","Rebounds","2.5","Over",-130,45,"2024-03-13","0",2
+"224","QUENTIN GRIMES","Points & Rebounds","11.5","Over",-130,45,"2024-03-13","0",2
+"225","KENTAVIOUS CALDWELL POPE","Points & Assists","11.5","Under",-130,45,"2024-03-13","1",2
+"226","JALEN BRUNSON","Rebounds & Assists","10.5","Under",-140,46,"2024-03-14","1",3
+"227","GIANNIS ANTETOKOUNMPO","Threes","0.5","Under",-136,46,"2024-03-14","1",3
+"228","JAYLEN BROWN","Threes","2.5","Under",-136,46,"2024-03-14","0",3
+"229","TOBIAS HARRIS","Blocks","0.5","Under",-136,46,"2024-03-14","0",3
+"230","OG ANUNOBY","Threes","1.5","Under",-132,46,"2024-03-14","1",3
+"231","FRED VANVLEET","Threes","3.5","Under",-142,47,"2024-03-14","1",3
+"232","GRAYSON ALLEN","Threes","2.5","Under",-140,47,"2024-03-14","0",3
+"233","DENI AVDIJA","Rebounds","9.5","Under",-134,47,"2024-03-14","1",3
+"234","NIKOLA VUCEVIC","Rebounds","11.5","Under",-132,47,"2024-03-14","1",3
+"235","TOBIAS HARRIS","Rebounds & Assists","9.5","Over",-132,47,"2024-03-14","0",3
+"236","DERRICK WHITE","Rebounds & Assists","9.5","Under",-142,48,"2024-03-14","0",3
+"237","DAMIAN LILLARD","Rebounds & Assists","11.5","Over",-136,48,"2024-03-14","1",3
+"238","TYRESE MAXEY","Rebounds & Assists","9.5","Under",-136,48,"2024-03-14","1",3
+"239","AL HORFORD","Assists","2.5","Over",-135,48,"2024-03-14","1",3
+"240","DEMAR DEROZAN","Rebounds","4.5","Under",-134,48,"2024-03-14","0",3
+"241","JRUE HOLIDAY","Rebounds","4.5","Over",-140,49,"2024-03-14","-1",2
+"242","GIANNIS ANTETOKOUNMPO","Assists","6.5","Over",-138,49,"2024-03-14","1",2
+"243","COREY KISPERT","Threes","2.5","Over",-132,49,"2024-03-14","1",2
+"244","JOSH HART","Assists","4.5","Over",-132,49,"2024-03-14","0",2
+"245","BOJAN BOGDANOVIC","Points","9.5","Over",-130,49,"2024-03-14","0",2
+"246","BUDDY HIELD","Rebounds","3.5","Under",-135,50,"2024-03-14","1",3
+"247","GRAYSON ALLEN","Assists","2.5","Under",-134,50,"2024-03-14","-1",3
+"248","ANFERNEE SIMONS","Rebounds & Assists","8.5","Over",-132,50,"2024-03-14","-1",3
+"249","AL HORFORD","Points","9.5","Under",-132,50,"2024-03-14","0",3
+"250","DILLON BROOKS","Points & Assists","15.5","Over",-130,50,"2024-03-14","1",3
+"251","GIANNIS ANTETOKOUNMPO","Rebounds","12.5","Under",-134,51,"2024-03-14","1",2
+"252","JORDAN POOLE","Rebounds","3.5","Under",-134,51,"2024-03-14","1",2
+"253","OG ANUNOBY","Threes","1.5","Over",-132,51,"2024-03-14","0",2
+"254","TYUS JONES","Points & Assists","19.5","Under",-130,51,"2024-03-14","0",2
+"255","ROYCE O'NEALE","Rebounds","4.5","Under",-130,51,"2024-03-14","0",2
+"256","TYUS JONES","Assists","8.5","Under",-138,52,"2024-03-14","1",4
+"257","JOSH HART","Rebounds","9.5","Over",-134,52,"2024-03-14","1",4
+"258","BROOK LOPEZ","Points & Rebounds","15.5","Over",-130,52,"2024-03-14","1",4
+"259","ROYCE O'NEALE","Assists","2.5","Over",-130,52,"2024-03-14","1",4
+"260","JOCK LANDALE","Points","8.5","Under",-130,52,"2024-03-14","0",4
+"261","CJ MCCOLLUM","Steals","0.5","Over",-136,53,"2024-03-15","1",1
+"262","DEJOUNTE MURRAY","Rebounds & Assists","14.5","Under",-136,53,"2024-03-15","0",1
+"263","JONAS VALANCIUNAS","Blocks","0.5","Over",-135,53,"2024-03-15","0",1
+"264","KELLY OLYNYK","Blocks","0.5","Over",-135,53,"2024-03-15","0",1
+"265","JIMMY BUTLER","Assists","5.5","Over",-132,53,"2024-03-15","0",1
+"266","IMMANUEL QUICKLEY","Rebounds & Assists","12.5","Under",-140,54,"2024-03-15","0",2
+"267","KELDON JOHNSON","Points, Rebounds, Assists","21.5","Under",-135,54,"2024-03-15","1",2
+"268","PAOLO BANCHERO","Assists","5.5","Under",-134,54,"2024-03-15","0",2
+"269","DEJOUNTE MURRAY","Assists","8.5","Over",-132,54,"2024-03-15","1",2
+"270","JAMES HARDEN","Rebounds","4.5","Over",-130,54,"2024-03-15","-1",2
+"271","BRUCE BROWN","Rebounds","5.5","Under",-134,55,"2024-03-15","1",5
+"272","GRAYSON ALLEN","Rebounds","3.5","Under",-132,55,"2024-03-15","1",5
+"273","JIMMY BUTLER","Rebounds","5.5","Under",-130,55,"2024-03-15","1",5
+"274","ZACH COLLINS","Blocks","0.5","Under",-130,55,"2024-03-15","1",5
+"275","OCHAI AGBAJI","Rebounds","3.5","Over",-130,55,"2024-03-15","1",5
+"276","ANFERNEE SIMONS","Rebounds","3.5","Under",-142,56,"2024-03-16","0",3
+"277","DEMAR DEROZAN","Rebounds & Assists","11.5","Under",-138,56,"2024-03-16","1",3
+"278","DENNIS SCHRODER","Assists","6.5","Under",-138,56,"2024-03-16","1",3
+"279","OG ANUNOBY","Blocks","0.5","Over",-135,56,"2024-03-16","1",3
+"280","JARRETT ALLEN","Steals","0.5","Over",-135,56,"2024-03-16","0",3
+"281","JALEN GREEN","Rebounds","5.5","Under",-142,57,"2024-03-16","0",1
+"282","MIKAL BRIDGES","Rebounds","4.5","Under",-136,57,"2024-03-16","0",1
+"283","NIKOLA VUCEVIC","Rebounds","12.5","Under",-136,57,"2024-03-16","0",1
+"284","FRED VANVLEET","Rebounds","3.5","Over",-132,57,"2024-03-16","1",1
+"285","MYLES TURNER","Rebounds & Assists","8.5","Over",-130,57,"2024-03-16","0",1
+"286","MIKAL BRIDGES","Rebounds & Assists","8.5","Under",-136,58,"2024-03-16","0",1
+"287","KEVIN HUERTER","Threes","1.5","Over",-132,58,"2024-03-16","0",1
+"288","JONAS VALANCIUNAS","Points","9.5","Under",-132,58,"2024-03-16","1",1
+"289","JOSH GIDDEY","Steals","0.5","Over",-130,58,"2024-03-16","0",1
+"290","JOHN COLLINS","Points & Assists","17.5","Over",-130,58,"2024-03-16","-1",1
+"291","CARIS LEVERT","Threes","1.5","Under",-142,59,"2024-03-16","1",2
+"292","JALEN GREEN","Rebounds & Assists","9.5","Under",-136,59,"2024-03-16","0",2
+"293","DRAYMOND GREEN","Points & Assists","12.5","Under",-136,59,"2024-03-16","0",2
+"294","DORIAN FINNEY SMITH","Blocks","0.5","Under",-136,59,"2024-03-16","1",2
+"295","JALEN SMITH","Blocks","0.5","Over",-135,59,"2024-03-16","0",2
+"296","T.J. MCCONNELL","Assists","4.5","Over",-134,60,"2024-03-16","0",0
+"297","TOBIAS HARRIS","Threes","1.5","Under",-132,60,"2024-03-16","-1",0
+"298","KEVIN HUERTER","Points & Rebounds","11.5","Over",-130,60,"2024-03-16","0",0
+"299","KEEGAN MURRAY","Points & Assists","14.5","Over",-130,60,"2024-03-16","0",0
+"300","AYO DOSUNMU","Assists","5.5","Under",-130,60,"2024-03-16","0",0
+"301","GRANT WILLIAMS","Rebounds","4.5","Over",-148,61,"2024-03-16","0",1
+"302","TOBIAS HARRIS","Rebounds & Assists","10.5","Under",-136,61,"2024-03-16","-1",1
+"303","DONTE DIVINCENZO","Rebounds","4.5","Under",-134,61,"2024-03-16","1",1
+"304","JONAS VALANCIUNAS","Points, Rebounds, Assists","23.5","Over",-130,61,"2024-03-16","0",1
+"305","TORREY CRAIG","Points & Assists","10.5","Over",-130,61,"2024-03-16","0",1
+"306","JALEN SMITH","Rebounds","5.5","Over",-138,62,"2024-03-16","0",2
+"307","TRE MANN","Points & Rebounds","15.5","Under",-136,62,"2024-03-16","0",2
+"308","JOSH HART","Assists","4.5","Over",-134,62,"2024-03-16","0",2
+"309","SHAI GILGEOUS ALEXANDER","Threes","1.5","Under",-132,62,"2024-03-16","1",2
+"310","DOMANTAS SABONIS","Rebounds & Assists","22.5","Under",-130,62,"2024-03-16","1",2
+"311","JALEN BRUNSON","Assists","6.5","Over",-138,63,"2024-03-16","0",2
+"312","NIKOLA VUCEVIC","Rebounds & Assists","15.5","Under",-136,63,"2024-03-16","1",2
+"313","DRAYMOND GREEN","Rebounds & Assists","11.5","Over",-136,63,"2024-03-16","1",2
+"314","DENNIS SCHRODER","Rebounds","2.5","Over",-134,63,"2024-03-16","0",2
+"315","DE'AARON FOX","Assists","5.5","Under",-130,63,"2024-03-16","0",2
+"316","DEJOUNTE MURRAY","Rebounds","4.5","Over",-140,64,"2024-03-17","0",3
+"317","AARON GORDON","Rebounds & Assists","8.5","Over",-140,64,"2024-03-17","1",3
+"318","JAMES HARDEN","Assists","8.5","Under",-138,64,"2024-03-17","1",3
+"319","LUKA DONCIC","Assists","10.5","Under",-136,64,"2024-03-17","1",3
+"320","IMMANUEL QUICKLEY","Threes","2.5","Over",-136,64,"2024-03-17","0",3
+"321","IMMANUEL QUICKLEY","Rebounds & Assists","12.5","Under",-136,65,"2024-03-17","1",4
+"322","OCHAI AGBAJI","Steals","0.5","Over",-135,65,"2024-03-17","0",4
+"323","JADEN IVEY","Rebounds & Assists","7.5","Under",-132,65,"2024-03-17","1",4
+"324","KELLY OLYNYK","Rebounds & Assists","11.5","Under",-132,65,"2024-03-17","1",4
+"325","GRAYSON ALLEN","Rebounds","3.5","Under",-132,65,"2024-03-17","1",4
+"326","JRUE HOLIDAY","Assists","6.5","Over",-140,66,"2024-03-17","0",3
+"327","AL HORFORD","Rebounds & Assists","11.5","Under",-138,66,"2024-03-17","1",3
+"328","IMMANUEL QUICKLEY","Assists","7.5","Under",-134,66,"2024-03-17","1",3
+"329","KENTAVIOUS CALDWELL POPE","Points & Rebounds","10.5","Over",-132,66,"2024-03-17","1",3
+"330","KYRIE IRVING","Rebounds","4.5","Under",-130,66,"2024-03-17","0",3
+"331","MARKELLE FULTZ","Steals","0.5","Over",-135,67,"2024-03-17","0",2
+"332","IMMANUEL QUICKLEY","Rebounds","4.5","Over",-134,67,"2024-03-17","1",2
+"333","JORDAN POOLE","Rebounds & Assists","9.5","Over",-132,67,"2024-03-17","0",2
+"334","JRUE HOLIDAY","Assists","6.5","Under",-132,67,"2024-03-17","1",2
+"335","DENNIS SCHRODER","Assists","6.5","Under",-130,67,"2024-03-17","0",2
+"336","JONATHAN KUMINGA","Rebounds","5.5","Under",-136,68,"2024-03-18","1",2
+"337","DEJOUNTE MURRAY","Steals","1.5","Under",-135,68,"2024-03-18","0",2
+"338","PASCAL SIAKAM","Rebounds","7.5","Under",-130,68,"2024-03-18","0",2
+"339","HARRISON BARNES","Points & Assists","14.5","Under",-130,68,"2024-03-18","1",2
+"340","TOBIAS HARRIS","Rebounds","6.5","Under",-130,68,"2024-03-18","-1",2
+"341","DEJOUNTE MURRAY","Rebounds","4.5","Over",-146,69,"2024-03-18","1",3
+"342","KRISTAPS PORZINGIS","Blocks","1.5","Over",-142,69,"2024-03-18","0",3
+"343","NIKOLA VUCEVIC","Blocks","0.5","Over",-140,69,"2024-03-18","1",3
+"344","DESMOND BANE","Rebounds & Assists","10.5","Under",-138,69,"2024-03-18","1",3
+"345","ANTHONY EDWARDS","Rebounds & Assists","11.5","Under",-136,69,"2024-03-18","0",3
+"346","JALEN JOHNSON","Rebounds","8.5","Under",-136,70,"2024-03-18","0",1
+"347","JARRETT ALLEN","Steals","0.5","Over",-135,70,"2024-03-18","1",1
+"348","JAYSON TATUM","Blocks","0.5","Under",-130,70,"2024-03-18","-1",1
+"349","JAYLEN BROWN","Threes","2.5","Under",-130,70,"2024-03-18","0",1
+"350","D'ANGELO RUSSELL","Rebounds & Assists","9.5","Under",-130,70,"2024-03-18","0",1
+"351","AUSTIN REAVES","Rebounds","4.5","Under",-138,71,"2024-03-18","0",2
+"352","JAYLEN BROWN","Rebounds & Assists","9.5","Over",-132,71,"2024-03-18","1",2
+"353","DRAYMOND GREEN","Rebounds","7.5","Over",-132,71,"2024-03-18","1",2
+"354","KEVIN HUERTER","Points & Assists","10.5","Over",-130,71,"2024-03-18","0",2
+"355","ALEX CARUSO","Rebounds & Assists","8.5","Over",-130,71,"2024-03-18","0",2
+"356","DONTE DIVINCENZO","Rebounds & Assists","7.5","Under",-138,72,"2024-03-18","1",1
+"357","TYRESE MAXEY","Rebounds & Assists","9.5","Under",-136,72,"2024-03-18","0",1
+"358","JADEN MCDANIELS","Points & Assists","11.5","Over",-135,72,"2024-03-18","0",1
+"359","JALEN JOHNSON","Rebounds & Assists","12.5","Under",-132,72,"2024-03-18","0",1
+"360","BUDDY HIELD","Steals","0.5","Over",-130,72,"2024-03-18","0",1
+"361","SANTI ALDAMA","Threes","1.5","Over",-140,73,"2024-03-18","1",5
+"362","DE'ANDRE HUNTER","Steals","0.5","Over",-130,73,"2024-03-18","1",5
+"363","ANDREW NEMBHARD","Points & Rebounds","11.5","Under",-130,73,"2024-03-18","1",5
+"364","T.J. MCCONNELL","Points & Assists","13.5","Over",-130,73,"2024-03-18","1",5
+"365","GEORGES NIANG","Points & Assists","12.5","Over",-130,73,"2024-03-18","1",5
+"366","CJ MCCOLLUM","Assists","3.5","Under",-140,74,"2024-03-19","0",2
+"367","TRE JONES","Rebounds","3.5","Over",-140,74,"2024-03-19","0",2
+"368","LUKA DONCIC","Steals","1.5","Under",-132,74,"2024-03-19","1",2
+"369","NIKOLA JOKIC","Rebounds","11.5","Over",-132,74,"2024-03-19","1",2
+"370","COLE ANTHONY","Rebounds","3.5","Under",-132,74,"2024-03-19","0",2
+"371","JONATHAN KUMINGA","Threes","0.5","Over",-142,75,"2024-03-20","1",3
+"372","SHAI GILGEOUS ALEXANDER","Steals","1.5","Under",-136,75,"2024-03-20","0",3
+"373","DE'AARON FOX","Rebounds & Assists","12.5","Under",-136,75,"2024-03-20","1",3
+"374","DRAYMOND GREEN","Rebounds","7.5","Under",-132,75,"2024-03-20","0",3
+"375","KEEGAN MURRAY","Points & Assists","16.5","Under",-130,75,"2024-03-20","1",3
+"376","DAMIAN LILLARD","Assists","7.5","Over",-148,76,"2024-03-20","0",1
+"377","TYRESE MAXEY","Assists","5.5","Under",-138,76,"2024-03-20","0",1
+"378","KELLY OLYNYK","Assists","5.5","Over",-138,76,"2024-03-20","0",1
+"379","DRAYMOND GREEN","Points","6.5","Over",-138,76,"2024-03-20","1",1
+"380","TERANCE MANN","Points & Assists","10.5","Under",-135,76,"2024-03-20","-1",1
+"381","TOBIAS HARRIS","Blocks","0.5","Under",-136,77,"2024-03-20","-1",4
+"382","BROOK LOPEZ","Rebounds & Assists","7.5","Under",-130,77,"2024-03-20","1",4
+"383","JARRETT ALLEN","Steals","0.5","Under",-130,77,"2024-03-20","1",4
+"384","GRAYSON ALLEN","Points & Assists","14.5","Over",-130,77,"2024-03-20","1",4
+"385","PAT CONNAUGHTON","Steals","0.5","Under",-130,77,"2024-03-20","1",4
+"386","SHAI GILGEOUS ALEXANDER","Threes","1.5","Under",-148,78,"2024-03-20","0",2
+"387","JADEN IVEY","Threes","1.5","Under",-136,78,"2024-03-20","1",2
+"388","ISAAC OKORO","Rebounds","3.5","Over",-134,78,"2024-03-20","0",2
+"389","DESMOND BANE","Rebounds & Assists","10.5","Under",-132,78,"2024-03-20","1",2
+"390","JRUE HOLIDAY","Rebounds & Assists","9.5","Over",-130,78,"2024-03-20","-1",2
+"391","BOBBY PORTIS","Rebounds & Assists","10.5","Under",-135,79,"2024-03-20","0",2
+"392","TOBIAS HARRIS","Rebounds","6.5","Under",-132,79,"2024-03-20","-1",2
+"393","ERIC GORDON","Points","8.5","Under",-130,79,"2024-03-20","1",2
+"394","JONATHAN KUMINGA","Blocks","0.5","Over",-130,79,"2024-03-20","0",2
+"395","ISAIAH JOE","Points","8.5","Under",-130,79,"2024-03-20","1",2
+"396","KEEGAN MURRAY","Rebounds & Assists","8.5","Under",-135,80,"2024-03-20","0",2
+"397","T.J. MCCONNELL","Assists","4.5","Over",-135,80,"2024-03-20","1",2
+"398","OBI TOPPIN","Steals","0.5","Under",-135,80,"2024-03-20","0",2
+"399","DE'AARON FOX","Threes","2.5","Under",-132,80,"2024-03-20","0",2
+"400","DARIUS GARLAND","Rebounds & Assists","9.5","Over",-132,80,"2024-03-20","1",2
+"401","KRISTAPS PORZINGIS","Threes","2.5","Under",-136,81,"2024-03-20","1",3
+"402","DAMIAN LILLARD","Rebounds & Assists","12.5","Over",-130,81,"2024-03-20","0",3
+"403","ANFERNEE SIMONS","Rebounds & Assists","9.5","Under",-130,81,"2024-03-20","1",3
+"404","BOBBY PORTIS","Steals","0.5","Over",-130,81,"2024-03-20","0",3
+"405","ROYCE O'NEALE","Rebounds","4.5","Under",-130,81,"2024-03-20","1",3
+"406","DENI AVDIJA","Rebounds & Assists","12.5","Under",-132,82,"2024-03-21","0",4
+"407","JORDAN POOLE","Rebounds","2.5","Over",-130,82,"2024-03-21","1",4
+"408","JAMAL MURRAY","Rebounds & Assists","11.5","Under",-130,82,"2024-03-21","1",4
+"409","NIKOLA VUCEVIC","Blocks","0.5","Over",-130,82,"2024-03-21","1",4
+"410","KENTAVIOUS CALDWELL POPE","Points","9.5","Under",-130,82,"2024-03-21","1",4
+"411","FRANZ WAGNER","Rebounds","4.5","Over",-142,83,"2024-03-21","0",2
+"412","PAOLO BANCHERO","Rebounds & Assists","12.5","Under",-136,83,"2024-03-21","0",2
+"413","HARRISON BARNES","Threes","1.5","Over",-136,83,"2024-03-21","0",2
+"414","KEEGAN MURRAY","Threes","1.5","Over",-136,83,"2024-03-21","1",2
+"415","CJ MCCOLLUM","Assists","3.5","Under",-132,83,"2024-03-21","1",2
+"416","MIKAL BRIDGES","Rebounds & Assists","8.5","Under",-132,84,"2024-03-21","1",3
+"417","LAURI MARKKANEN","Rebounds","6.5","Over",-130,84,"2024-03-21","0",3
+"418","DEMAR DEROZAN","Blocks","0.5","Under",-130,84,"2024-03-21","1",3
+"419","KYLE KUZMA","Rebounds & Assists","11.5","Over",-130,84,"2024-03-21","0",3
+"420","HERBERT JONES","Points","8.5","Over",-130,84,"2024-03-21","1",3
+"421","PAOLO BANCHERO","Assists","5.5","Under",-140,85,"2024-03-21","0",1
+"422","BOJAN BOGDANOVIC","Points","7.5","Over",-138,85,"2024-03-21","0",1
+"423","HERBERT JONES","Points & Assists","11.5","Under",-136,85,"2024-03-21","0",1
+"424","HARRISON BARNES","Steals","0.5","Under",-135,85,"2024-03-21","0",1
+"425","JALEN BRUNSON","Assists","5.5","Over",-132,85,"2024-03-21","1",1
+"426","AARON GORDON","Rebounds","6.5","Under",-134,86,"2024-03-21","1",4
+"427","LARRY NANCE JR.","Points","6.5","Under",-134,86,"2024-03-21","1",4
+"428","DEJOUNTE MURRAY","Rebounds & Assists","13.5","Over",-132,86,"2024-03-21","1",4
+"429","DENI AVDIJA","Points & Assists","20.5","Under",-132,86,"2024-03-21","0",4
+"430","LUKA DONCIC","Rebounds","9.5","Under",-130,86,"2024-03-21","1",4
+"431","CHRIS PAUL","Assists","5.5","Over",-146,87,"2024-03-22","0",2
+"432","TOBIAS HARRIS","Rebounds","6.5","Under",-132,87,"2024-03-22","0",2
+"433","KLAY THOMPSON","Steals","0.5","Over",-130,87,"2024-03-22","1",2
+"434","ANFERNEE SIMONS","Steals","0.5","Over",-130,87,"2024-03-22","1",2
+"435","JAMES HARDEN","Rebounds & Assists","14.5","Under",-130,87,"2024-03-22","0",2
+"436","JOSH GIDDEY","Points","11.5","Over",-130,88,"2024-03-22","0",2
+"437","JALEN WILLIAMS","Rebounds","4.5","Over",-130,88,"2024-03-22","0",2
+"438","SANTI ALDAMA","Rebounds & Assists","11.5","Under",-130,88,"2024-03-22","0",2
+"439","TERANCE MANN","Points","8.5","Over",-130,88,"2024-03-22","1",2
+"440","DRAYMOND GREEN","Threes","0.5","Under",-130,88,"2024-03-22","1",2
+"441","PASCAL SIAKAM","Threes","0.5","Over",-146,89,"2024-03-22","1",3
+"442","RUI HACHIMURA","Rebounds","4.5","Under",-142,89,"2024-03-22","0",3
+"443","TERANCE MANN","Rebounds","3.5","Under",-138,89,"2024-03-22","1",3
+"444","JAYSON TATUM","Blocks","0.5","Under",-135,89,"2024-03-22","-1",3
+"445","BAM ADEBAYO","Rebounds","9.5","Over",-132,89,"2024-03-22","1",3
+"446","ANTHONY EDWARDS","Blocks","0.5","Over",-130,90,"2024-03-22","0",3
+"447","RUDY GOBERT","Steals","0.5","Under",-130,90,"2024-03-22","1",3
+"448","ANDREW NEMBHARD","Points","8.5","Under",-130,90,"2024-03-22","0",3
+"449","T.J. MCCONNELL","Points & Rebounds","14.5","Under",-130,90,"2024-03-22","1",3
+"450","GEORGES NIANG","Points & Assists","13.5","Under",-130,90,"2024-03-22","1",3
+"451","TYRESE MAXEY","Rebounds","3.5","Over",-140,91,"2024-03-22","0",1
+"452","JALEN WILLIAMS","Rebounds","4.5","Under",-140,91,"2024-03-22","1",1
+"453","SANTI ALDAMA","Rebounds","7.5","Under",-138,91,"2024-03-22","0",1
+"454","JIMMY BUTLER","Rebounds & Assists","10.5","Over",-136,91,"2024-03-22","0",1
+"455","ANDREW NEMBHARD","Rebounds","2.5","Under",-136,91,"2024-03-22","0",1
+"456","JAYSON TATUM","Threes","3.5","Under",-142,92,"2024-03-22","-1",1
+"457","JOHN KONCHAR","Rebounds & Assists","10.5","Over",-135,92,"2024-03-22","0",1
+"458","CHRIS PAUL","Points & Rebounds","13.5","Under",-130,92,"2024-03-22","0",1
+"459","IVICA ZUBAC","Rebounds","8.5","Over",-130,92,"2024-03-22","0",1
+"460","DRAYMOND GREEN","Points","7.5","Over",-130,92,"2024-03-22","1",1
+"461","SANTI ALDAMA","Assists","3.5","Under",-140,93,"2024-03-22","1",3
+"462","KELDON JOHNSON","Rebounds & Assists","7.5","Under",-135,93,"2024-03-22","0",3
+"463","KLAY THOMPSON","Points","16.5","Over",-135,93,"2024-03-22","1",3
+"464","KYLE ANDERSON","Points & Assists","15.5","Under",-132,93,"2024-03-22","1",3
+"465","ANTHONY EDWARDS","Threes","2.5","Over",-130,93,"2024-03-22","0",3
+"466","JOSH GIDDEY","Rebounds","6.5","Under",-138,94,"2024-03-22","1",4
+"467","MIKE CONLEY","Assists","4.5","Over",-138,94,"2024-03-22","1",4
+"468","JIMMY BUTLER","Rebounds","5.5","Under",-134,94,"2024-03-22","1",4
+"469","SHAI GILGEOUS ALEXANDER","Threes","1.5","Under",-132,94,"2024-03-22","1",4
+"470","JADEN IVEY","Assists","3.5","Over",-132,94,"2024-03-22","0",4
+"471","HARRISON BARNES","Threes","1.5","Under",-142,95,"2024-03-23","1",2
+"472","OCHAI AGBAJI","Rebounds","4.5","Under",-142,95,"2024-03-23","0",2
+"473","NIKOLA VUCEVIC","Blocks","0.5","Under",-140,95,"2024-03-23","0",2
+"474","TRE JONES","Rebounds","3.5","Over",-140,95,"2024-03-23","0",2
+"475","DENNIS SCHRODER","Assists","6.5","Under",-140,95,"2024-03-23","1",2
+"476","JALEN BRUNSON","Assists","6.5","Under",-140,96,"2024-03-23","0",3
+"477","KYLE KUZMA","Assists","5.5","Under",-140,96,"2024-03-23","1",3
+"478","PAOLO BANCHERO","Threes","1.5","Under",-140,96,"2024-03-23","1",3
+"479","DOMANTAS SABONIS","Assists","7.5","Under",-136,96,"2024-03-23","0",3
+"480","TRE MANN","Threes","1.5","Under",-132,96,"2024-03-23","1",3
+"481","ALEX CARUSO","Rebounds & Assists","7.5","Over",-142,97,"2024-03-23","0",0
+"482","MALIK MONK","Rebounds & Assists","7.5","Over",-136,97,"2024-03-23","0",0
+"483","CLINT CAPELA","Rebounds","11.5","Over",-134,97,"2024-03-23","0",0
+"484","NIKOLA VUCEVIC","Assists","2.5","Under",-132,97,"2024-03-23","0",0
+"485","DOMANTAS SABONIS","Blocks","0.5","Over",-130,97,"2024-03-23","0",0
+"486","NICK RICHARDS","Rebounds","9.5","Under",-138,98,"2024-03-23","0",3
+"487","DE'AARON FOX","Rebounds & Assists","10.5","Under",-130,98,"2024-03-23","1",3
+"488","DEMAR DEROZAN","Rebounds & Assists","8.5","Over",-130,98,"2024-03-23","1",3
+"489","FRED VANVLEET","Rebounds & Assists","13.5","Under",-130,98,"2024-03-23","1",3
+"490","KELLY OLYNYK","Assists","5.5","Under",-130,98,"2024-03-23","0",3
+"491","DAMIAN LILLARD","Rebounds","4.5","Under",-148,99,"2024-03-24","0",2
+"492","JAMES HARDEN","Threes","2.5","Over",-146,99,"2024-03-24","0",2
+"493","BROOK LOPEZ","Rebounds","5.5","Under",-146,99,"2024-03-24","1",2
+"494","ANTHONY EDWARDS","Rebounds","5.5","Over",-140,99,"2024-03-24","1",2
+"495","AUSTIN REAVES","Rebounds","4.5","Under",-138,99,"2024-03-24","0",2
+"496","JAMES HARDEN","Rebounds & Assists","14.5","Under",-138,100,"2024-03-24","0",2
+"497","GIANNIS ANTETOKOUNMPO","Assists","5.5","Over",-136,100,"2024-03-24","0",2
+"498","JONATHAN KUMINGA","Threes","0.5","Over",-136,100,"2024-03-24","0",2
+"499","JOSH GIDDEY","Points","10.5","Over",-132,100,"2024-03-24","1",2
+"500","JALEN WILLIAMS","Threes","1.5","Under",-132,100,"2024-03-24","1",2
+"501","AUSTIN REAVES","Assists","4.5","Over",-138,101,"2024-03-24","1",1
+"502","D'ANGELO RUSSELL","Assists","5.5","Over",-132,101,"2024-03-24","-1",1
+"503","ANDREW NEMBHARD","Points","9.5","Under",-132,101,"2024-03-24","0",1
+"504","DRAYMOND GREEN","Rebounds & Assists","13.5","Over",-132,101,"2024-03-24","0",1
+"505","DARIUS GARLAND","Rebounds","2.5","Under",-130,101,"2024-03-24","0",1
+"506","TYRESE MAXEY","Rebounds & Assists","9.5","Under",-136,102,"2024-03-24","1",4
+"507","JADEN IVEY","Blocks","0.5","Under",-130,102,"2024-03-24","1",4
+"508","RUI HACHIMURA","Points & Assists","14.5","Under",-130,102,"2024-03-24","1",4
+"509","JONATHAN KUMINGA","Points & Assists","20.5","Under",-130,102,"2024-03-24","1",4
+"510","HERBERT JONES","Threes","1.5","Under",-130,102,"2024-03-24","0",4
+"511","DAMIAN LILLARD","Threes","3.5","Under",-142,103,"2024-03-24","1",4
+"512","DRAYMOND GREEN","Rebounds","7.5","Over",-140,103,"2024-03-24","1",4
+"513","ISAIAH JOE","Points","6.5","Under",-138,103,"2024-03-24","1",4
+"514","PASCAL SIAKAM","Rebounds","7.5","Over",-136,103,"2024-03-24","1",4
+"515","BROOK LOPEZ","Points & Assists","11.5","Under",-130,103,"2024-03-24","0",4
+"516","AUSTIN REAVES","Points & Assists","20.5","Over",-138,104,"2024-03-24","1",5
+"517","KLAY THOMPSON","Points, Rebounds, Assists","21.5","Under",-135,104,"2024-03-24","1",5
+"518","OBI TOPPIN","Points & Rebounds","10.5","Over",-132,104,"2024-03-24","1",5
+"519","MYLES TURNER","Rebounds & Assists","7.5","Over",-130,104,"2024-03-24","1",5
+"520","BOBBY PORTIS","Steals","0.5","Over",-130,104,"2024-03-24","1",5
+"521","MALIK BEASLEY","Points","10.5","Under",-130,105,"2024-03-24","1",3
+"522","JADEN MCDANIELS","Blocks","0.5","Over",-130,105,"2024-03-24","0",3
+"523","AARON NESMITH","Steals","0.5","Over",-130,105,"2024-03-24","0",3
+"524","JONATHAN KUMINGA","Rebounds & Assists","7.5","Under",-130,105,"2024-03-24","1",3
+"525","JALEN SMITH","Points & Assists","10.5","Under",-130,105,"2024-03-24","1",3
+"526","KYRIE IRVING","Rebounds","4.5","Over",-142,106,"2024-03-25","0",3
+"527","DEMAR DEROZAN","Rebounds","4.5","Over",-142,106,"2024-03-25","0",3
+"528","TOBIAS HARRIS","Rebounds & Assists","10.5","Under",-140,106,"2024-03-25","1",3
+"529","JADEN IVEY","Threes","1.5","Under",-138,106,"2024-03-25","1",3
+"530","JAYLEN BROWN","Rebounds & Assists","9.5","Under",-136,106,"2024-03-25","1",3
+"531","JAMAL MURRAY","Rebounds","4.5","Under",-138,107,"2024-03-25","-1",3
+"532","DENI AVDIJA","Threes","1.5","Under",-138,107,"2024-03-25","-1",3
+"533","JAYSON TATUM","Assists","5.5","Under",-136,107,"2024-03-25","1",3
+"534","KRISTAPS PORZINGIS","Rebounds","6.5","Under",-136,107,"2024-03-25","1",3
+"535","JAMES HARDEN","Threes","2.5","Under",-136,107,"2024-03-25","1",3
+"536","KEEGAN MURRAY","Threes","2.5","Under",-136,108,"2024-03-25","0",3
+"537","TERANCE MANN","Rebounds","3.5","Under",-136,108,"2024-03-25","1",3
+"538","LUKA DONCIC","Rebounds & Assists","20.5","Under",-132,108,"2024-03-25","0",3
+"539","NIKOLA JOKIC","Rebounds & Assists","22.5","Under",-132,108,"2024-03-25","1",3
+"540","DESMOND BANE","Threes","2.5","Under",-132,108,"2024-03-25","1",3
+"541","ANFERNEE SIMONS","Assists","4.5","Over",-132,109,"2024-03-25","-1",2
+"542","FRED VANVLEET","Rebounds & Assists","11.5","Over",-132,109,"2024-03-25","0",2
+"543","COBY WHITE","Rebounds","4.5","Over",-132,109,"2024-03-25","0",2
+"544","OCHAI AGBAJI","Rebounds & Assists","7.5","Under",-132,109,"2024-03-25","1",2
+"545","LAURI MARKKANEN","Rebounds & Assists","9.5","Under",-130,109,"2024-03-25","1",2
+"546","DARIUS GARLAND","Rebounds","2.5","Under",-130,110,"2024-03-25","0",2
+"547","MIKAL BRIDGES","Rebounds & Assists","9.5","Under",-130,110,"2024-03-25","1",2
+"548","DEANDRE AYTON","Rebounds","12.5","Under",-130,110,"2024-03-25","-1",2
+"549","HARRISON BARNES","Points, Rebounds, Assists","16.5","Over",-130,110,"2024-03-25","0",2
+"550","TRE MANN","Points & Assists","14.5","Over",-130,110,"2024-03-25","1",2
+"551","GRAYSON ALLEN","Assists","2.5","Over",-148,111,"2024-03-25","0",2
+"552","JALEN GREEN","Rebounds & Assists","9.5","Under",-138,111,"2024-03-25","1",2
+"553","ANFERNEE SIMONS","Rebounds","3.5","Over",-132,111,"2024-03-25","-1",2
+"554","DE'ANDRE HUNTER","Rebounds","3.5","Over",-132,111,"2024-03-25","1",2
+"555","LUKA DONCIC","Rebounds","9.5","Under",-130,111,"2024-03-25","0",2
+"556","JAYSON TATUM","Rebounds","7.5","Over",-140,112,"2024-03-25","1",3
+"557","DENI AVDIJA","Rebounds","8.5","Under",-138,112,"2024-03-25","-1",3
+"558","FRED VANVLEET","Threes","3.5","Under",-136,112,"2024-03-25","1",3
+"559","DOMANTAS SABONIS","Rebounds","15.5","Under",-136,112,"2024-03-25","1",3
+"560","KEEGAN MURRAY","Rebounds & Assists","7.5","Over",-135,112,"2024-03-25","0",3
+"561","DORIAN FINNEY SMITH","Points, Rebounds, Assists","17.5","Under",-135,113,"2024-03-25","0",1
+"562","JORDAN POOLE","Assists","5.5","Over",-134,113,"2024-03-25","0",1
+"563","MYLES TURNER","Blocks","1.5","Under",-132,113,"2024-03-25","1",1
+"564","MALIK MONK","Assists","4.5","Over",-132,113,"2024-03-25","0",1
+"565","JOHN COLLINS","Blocks","0.5","Over",-130,113,"2024-03-25","0",1
+"566","JOSH HART","Points, Rebounds, Assists","29.5","Under",-146,114,"2024-03-25","0",2
+"567","TRE MANN","Assists","4.5","Under",-134,114,"2024-03-25","0",2
+"568","NIKOLA VUCEVIC","Rebounds & Assists","14.5","Over",-132,114,"2024-03-25","1",2
+"569","JAMES HARDEN","Blocks","0.5","Over",-130,114,"2024-03-25","0",2
+"570","HARRISON BARNES","Steals","0.5","Under",-130,114,"2024-03-25","1",2
+"571","CARIS LEVERT","Assists","6.5","Over",-142,115,"2024-03-25","1",3
+"572","TRE JONES","Assists","6.5","Over",-138,115,"2024-03-25","0",3
+"573","BRUCE BROWN","Rebounds & Assists","10.5","Under",-138,115,"2024-03-25","1",3
+"574","TERANCE MANN","Points & Assists","10.5","Over",-130,115,"2024-03-25","0",3
+"575","AYO DOSUNMU","Rebounds & Assists","8.5","Under",-130,115,"2024-03-25","1",3
+"576","JOSH HART","Points & Assists","18.5","Under",-136,116,"2024-03-25","0",4
+"577","JAMES HARDEN","Rebounds & Assists","14.5","Under",-132,116,"2024-03-25","1",4
+"578","JOHN COLLINS","Rebounds & Assists","8.5","Over",-130,116,"2024-03-25","1",4
+"579","ZACH COLLINS","Rebounds & Assists","9.5","Under",-130,116,"2024-03-25","1",4
+"580","BOL BOL","Points","6.5","Under",-130,116,"2024-03-25","1",4
+"581","LUKA DONCIC","Threes","3.5","Over",-146,117,"2024-03-26","1",3
+"582","GIANNIS ANTETOKOUNMPO","Rebounds & Assists","17.5","Over",-132,117,"2024-03-26","1",3
+"583","CJ MCCOLLUM","Rebounds","4.5","Under",-132,117,"2024-03-26","0",3
+"584","SHAI GILGEOUS ALEXANDER","Rebounds & Assists","11.5","Under",-130,117,"2024-03-26","0",3
+"585","DE'AARON FOX","Rebounds","4.5","Over",-130,117,"2024-03-26","1",3
+"586","DRAYMOND GREEN","Rebounds & Assists","14.5","Under",-138,118,"2024-03-26","0",1
+"587","SHAI GILGEOUS ALEXANDER","Steals","1.5","Under",-132,118,"2024-03-26","0",1
+"588","CJ MCCOLLUM","Assists","4.5","Under",-132,118,"2024-03-26","0",1
+"589","GIANNIS ANTETOKOUNMPO","Assists","5.5","Over",-130,118,"2024-03-26","1",1
+"590","JALEN WILLIAMS","Threes","1.5","Under",-130,118,"2024-03-26","0",1
+"591","BROOK LOPEZ","Blocks","1.5","Over",-136,119,"2024-03-26","0",2
+"592","SHAI GILGEOUS ALEXANDER","Threes","1.5","Under",-132,119,"2024-03-26","1",2
+"593","BAM ADEBAYO","Rebounds","10.5","Over",-132,119,"2024-03-26","0",2
+"594","JONATHAN KUMINGA","Rebounds & Assists","7.5","Under",-132,119,"2024-03-26","0",2
+"595","NAJI MARSHALL","Rebounds","4.5","Under",-132,119,"2024-03-26","1",2
+"596","DOMANTAS SABONIS","Rebounds & Assists","23.5","Under",-132,120,"2024-03-26","1",3
+"597","KLAY THOMPSON","Steals","0.5","Under",-130,120,"2024-03-26","1",3
+"598","BOBBY PORTIS","Rebounds & Assists","9.5","Under",-130,120,"2024-03-26","0",3
+"599","ISAIAH JOE","Threes","1.5","Under",-130,120,"2024-03-26","0",3
+"600","JOSE ALVARADO","Points & Rebounds","11.5","Under",-130,120,"2024-03-26","1",3
+"601","SHAI GILGEOUS ALEXANDER","Assists","5.5","Over",-144,121,"2024-03-26","1",2
+"602","DE'AARON FOX","Assists","5.5","Over",-140,121,"2024-03-26","0",2
+"603","CHRIS PAUL","Points, Rebounds, Assists","18.5","Under",-135,121,"2024-03-26","1",2
+"604","HERBERT JONES","Assists","2.5","Under",-134,121,"2024-03-26","0",2
+"605","DANIEL GAFFORD","Rebounds","7.5","Over",-134,121,"2024-03-26","0",2
+"606","PAT CONNAUGHTON","Rebounds","2.5","Over",-135,122,"2024-03-26","1",4
+"607","DRAYMOND GREEN","Points","7.5","Over",-134,122,"2024-03-26","0",4
+"608","BAM ADEBAYO","Rebounds","11.5","Under",-132,122,"2024-03-26","1",4
+"609","LUKA DONCIC","Assists","10.5","Under",-130,122,"2024-03-26","1",4
+"610","D'ANGELO RUSSELL","Rebounds & Assists","11.5","Over",-130,122,"2024-03-26","1",4
+"611","TYRESE MAXEY","Rebounds & Assists","8.5","Over",-132,123,"2024-03-27","1",4
+"612","JORDAN POOLE","Rebounds","2.5","Over",-130,123,"2024-03-27","1",4
+"613","MICHAEL PORTER JR.","Rebounds & Assists","8.5","Under",-130,123,"2024-03-27","1",4
+"614","RUSSELL WESTBROOK","Rebounds & Assists","7.5","Under",-130,123,"2024-03-27","1",4
+"615","TOBIAS HARRIS","Blocks","0.5","Under",-130,123,"2024-03-27","0",4
+"616","DENNIS SCHRODER","Assists","7.5","Under",-130,124,"2024-03-27","0",2
+"617","COREY KISPERT","Rebounds","3.5","Under",-130,124,"2024-03-27","1",2
+"618","DENI AVDIJA","Assists","3.5","Over",-130,124,"2024-03-27","0",2
+"619","TERANCE MANN","Points","7.5","Under",-130,124,"2024-03-27","0",2
+"620","DORIAN FINNEY SMITH","Rebounds","4.5","Over",-130,124,"2024-03-27","1",2
+"621","COREY KISPERT","Threes","2.5","Over",-148,125,"2024-03-27","0",3
+"622","DARIUS GARLAND","Threes","2.5","Over",-140,125,"2024-03-27","1",3
+"623","DEJOUNTE MURRAY","Rebounds & Assists","15.5","Under",-138,125,"2024-03-27","1",3
+"624","PAOLO BANCHERO","Threes","1.5","Under",-138,125,"2024-03-27","1",3
+"625","ANDREW NEMBHARD","Rebounds","2.5","Under",-138,125,"2024-03-27","0",3
+"626","DARIUS GARLAND","Rebounds & Assists","9.5","Over",-142,126,"2024-03-27","1",5
+"627","FRANZ WAGNER","Assists","3.5","Under",-138,126,"2024-03-27","1",5
+"628","AYO DOSUNMU","Assists","4.5","Under",-138,126,"2024-03-27","1",5
+"629","MILES MCBRIDE","Threes","2.5","Over",-136,126,"2024-03-27","1",5
+"630","AARON NESMITH","Blocks","0.5","Under",-135,126,"2024-03-27","1",5
+"631","NIKOLA JOKIC","Rebounds & Assists","20.5","Over",-132,127,"2024-03-27","0",2
+"632","KYLE KUZMA","Rebounds & Assists","11.5","Over",-132,127,"2024-03-27","1",2
+"633","JONATHAN KUMINGA","Rebounds & Assists","7.5","Under",-132,127,"2024-03-27","-1",2
+"634","DONTE DIVINCENZO","Steals","1.5","Over",-132,127,"2024-03-27","1",2
+"635","DRAYMOND GREEN","Rebounds & Assists","13.5","Over",-132,127,"2024-03-27","0",2
+"636","PASCAL SIAKAM","Rebounds","8.5","Under",-130,128,"2024-03-27","1",3
+"637","MIKAL BRIDGES","Rebounds & Assists","8.5","Over",-130,128,"2024-03-27","1",3
+"638","AARON GORDON","Threes","0.5","Under",-130,128,"2024-03-27","0",3
+"639","JADEN MCDANIELS","Points, Rebounds, Assists","17.5","Under",-130,128,"2024-03-27","0",3
+"640","JOSH HART","Points & Assists","19.5","Under",-130,128,"2024-03-27","1",3
+"641","GRAYSON ALLEN","Threes","2.5","Under",-142,129,"2024-03-27","0",2
+"642","DILLON BROOKS","Threes","1.5","Over",-140,129,"2024-03-27","1",2
+"643","MIKAL BRIDGES","Rebounds & Assists","8.5","Under",-136,129,"2024-03-27","0",2
+"644","ANTHONY EDWARDS","Assists","5.5","Under",-134,129,"2024-03-27","1",2
+"645","PASCAL SIAKAM","Rebounds & Assists","12.5","Under",-132,129,"2024-03-27","0",2
+"646","JORDAN POOLE","Rebounds & Assists","8.5","Under",-132,130,"2024-03-27","0",2
+"647","JARRETT ALLEN","Rebounds","11.5","Over",-132,130,"2024-03-27","0",2
+"648","JOSH HART","Rebounds & Assists","18.5","Under",-132,130,"2024-03-27","1",2
+"649","EVAN MOBLEY","Points & Assists","16.5","Under",-130,130,"2024-03-27","1",2
+"650","JONATHAN KUMINGA","Threes","0.5","Under",-130,130,"2024-03-27","-1",2
+"651","DEJOUNTE MURRAY","Steals","2.5","Under",-138,131,"2024-03-27","1",2
+"652","CARIS LEVERT","Assists","6.5","Under",-134,131,"2024-03-27","0",2
+"653","LAURI MARKKANEN","Rebounds","7.5","Over",-132,131,"2024-03-27","0",2
+"654","FRED VANVLEET","Rebounds & Assists","11.5","Under",-130,131,"2024-03-27","1",2
+"655","JOSH GIDDEY","Points & Assists","20.5","Under",-130,131,"2024-03-27","0",2
+"656","NAJI MARSHALL","Rebounds","4.5","Under",-142,132,"2024-03-28","1",3
+"657","DERRICK WHITE","Rebounds & Assists","10.5","Under",-138,132,"2024-03-28","0",3
+"658","DEJOUNTE MURRAY","Rebounds & Assists","14.5","Under",-132,132,"2024-03-28","1",3
+"659","CLINT CAPELA","Rebounds","10.5","Under",-132,132,"2024-03-28","0",3
+"660","MALIK BEASLEY","Points & Assists","11.5","Over",-130,132,"2024-03-28","1",3
+"661","DILLON BROOKS","Rebounds","3.5","Under",-142,133,"2024-03-29","0",1
+"662","PASCAL SIAKAM","Assists","3.5","Under",-138,133,"2024-03-29","0",1
+"663","ANDREW NEMBHARD","Rebounds","2.5","Under",-138,133,"2024-03-29","1",1
+"664","KYLE KUZMA","Threes","1.5","Over",-130,133,"2024-03-29","0",1
+"665","JORDAN POOLE","Rebounds & Assists","9.5","Over",-130,133,"2024-03-29","0",1
+"666","LUKA DONCIC","Assists","9.5","Over",-146,134,"2024-03-29","1",2
+"667","KLAY THOMPSON","Rebounds","3.5","Under",-142,134,"2024-03-29","-1",2
+"668","JOSH HART","Assists","6.5","Under",-142,134,"2024-03-29","0",2
+"669","COBY WHITE","Assists","4.5","Over",-142,134,"2024-03-29","1",2
+"670","JALEN BRUNSON","Rebounds","3.5","Under",-138,134,"2024-03-29","0",2
+"671","FRED VANVLEET","Rebounds","3.5","Under",-138,135,"2024-03-29","1",4
+"672","KEEGAN MURRAY","Rebounds","5.5","Over",-138,135,"2024-03-29","1",4
+"673","JOSH GIDDEY","Rebounds & Assists","12.5","Over",-136,135,"2024-03-29","1",4
+"674","JALEN GREEN","Blocks","0.5","Under",-135,135,"2024-03-29","1",4
+"675","JOHN COLLINS","Rebounds & Assists","9.5","Under",-135,135,"2024-03-29","0",4
+"676","NIKOLA JOKIC","Rebounds & Assists","20.5","Over",-132,136,"2024-03-29","0",3
+"677","NIKOLA VUCEVIC","Assists","2.5","Over",-132,136,"2024-03-29","1",3
+"678","JALEN WILLIAMS","Rebounds & Assists","10.5","Under",-132,136,"2024-03-29","1",3
+"679","DENNIS SCHRODER","Rebounds & Assists","9.5","Over",-132,136,"2024-03-29","1",3
+"680","IVICA ZUBAC","Rebounds","8.5","Under",-132,136,"2024-03-29","0",3
+"681","ALEX CARUSO","Rebounds & Assists","7.5","Over",-132,137,"2024-03-29","1",3
+"682","PASCAL SIAKAM","Threes","0.5","Over",-130,137,"2024-03-29","0",3
+"683","MIKAL BRIDGES","Rebounds","4.5","Under",-130,137,"2024-03-29","1",3
+"684","JAMAL MURRAY","Rebounds & Assists","11.5","Under",-130,137,"2024-03-29","-1",3
+"685","DEANDRE AYTON","Rebounds","11.5","Under",-130,137,"2024-03-29","1",3
+"686","NIKOLA JOKIC","Rebounds","11.5","Over",-138,138,"2024-03-29","0",4
+"687","FRED VANVLEET","Rebounds & Assists","12.5","Under",-138,138,"2024-03-29","1",4
+"688","JORDAN POOLE","Steals","1.5","Under",-136,138,"2024-03-29","1",4
+"689","DOMANTAS SABONIS","Rebounds & Assists","23.5","Under",-130,138,"2024-03-29","1",4
+"690","DONTE DIVINCENZO","Blocks","0.5","Under",-130,138,"2024-03-29","1",4
+"691","DRAYMOND GREEN","Assists","6.5","Under",-144,139,"2024-03-29","1",2
+"692","TRE MANN","Rebounds & Assists","9.5","Under",-140,139,"2024-03-29","1",2
+"693","TOBIAS HARRIS","Rebounds","6.5","Under",-134,139,"2024-03-29","0",2
+"694","TRE JONES","Points","8.5","Under",-134,139,"2024-03-29","0",2
+"695","KYRIE IRVING","Rebounds & Assists","9.5","Over",-132,139,"2024-03-29","0",2
+"696","DENI AVDIJA","Rebounds & Assists","13.5","Under",-136,140,"2024-03-29","0",1
+"697","DEMAR DEROZAN","Assists","4.5","Over",-130,140,"2024-03-29","0",1
+"698","JIMMY BUTLER","Rebounds & Assists","10.5","Under",-130,140,"2024-03-29","0",1
+"699","JOSH GIDDEY","Assists","5.5","Under",-130,140,"2024-03-29","0",1
+"700","RUI HACHIMURA","Points & Assists","16.5","Under",-130,140,"2024-03-29","1",1
+"701","JORDAN POOLE","Rebounds & Assists","9.5","Under",-146,141,"2024-03-29","1",2
+"702","AUSTIN REAVES","Rebounds & Assists","10.5","Under",-132,141,"2024-03-29","0",2
+"703","JALEN SMITH","Threes","0.5","Over",-132,141,"2024-03-29","0",2
+"704","FRANZ WAGNER","Rebounds & Assists","7.5","Over",-130,141,"2024-03-29","0",2
+"705","NORMAN POWELL","Points & Rebounds","15.5","Under",-130,141,"2024-03-29","1",2
+"706","JAMAL MURRAY","Assists","6.5","Under",-130,142,"2024-03-29","-1",3
+"707","RUSSELL WESTBROOK","Points & Assists","10.5","Under",-130,142,"2024-03-29","1",3
+"708","KENTAVIOUS CALDWELL POPE","Blocks","0.5","Under",-130,142,"2024-03-29","1",3
+"709","GRANT WILLIAMS","Points, Rebounds, Assists","17.5","Under",-130,142,"2024-03-29","0",3
+"710","DERRICK JONES JR.","Steals","0.5","Under",-130,142,"2024-03-29","1",3
+"711","AARON GORDON","Threes","0.5","Under",-135,143,"2024-03-29","0",4
+"712","PASCAL SIAKAM","Assists","3.5","Over",-134,143,"2024-03-29","1",4
+"713","NIKOLA JOKIC","Assists","8.5","Under",-130,143,"2024-03-29","1",4
+"714","IVICA ZUBAC","Points","8.5","Over",-130,143,"2024-03-29","1",4
+"715","T.J. MCCONNELL","Rebounds & Assists","8.5","Under",-130,143,"2024-03-29","1",4
+"716","KENTAVIOUS CALDWELL POPE","Steals","1.5","Under",-140,144,"2024-03-29","1",2
+"717","D'ANGELO RUSSELL","Rebounds & Assists","9.5","Under",-138,144,"2024-03-29","1",2
+"718","ANDREW NEMBHARD","Points & Assists","12.5","Over",-132,144,"2024-03-29","0",2
+"719","TYRESE MAXEY","Assists","5.5","Under",-130,144,"2024-03-29","0",2
+"720","MYLES TURNER","Points & Assists","16.5","Over",-130,144,"2024-03-29","0",2
+"721","RUI HACHIMURA","Points, Rebounds, Assists","20.5","Under",-140,145,"2024-03-29","1",3
+"722","TRE JONES","Points & Assists","14.5","Over",-132,145,"2024-03-29","1",3
+"723","MOSES MOODY","Points","8.5","Under",-132,145,"2024-03-29","0",3
+"724","DRAYMOND GREEN","Rebounds & Assists","14.5","Under",-130,145,"2024-03-29","1",3
+"725","GRANT WILLIAMS","Points & Assists","13.5","Under",-130,145,"2024-03-29","0",3
+"726","RUI HACHIMURA","Rebounds","4.5","Under",-140,146,"2024-03-29","1",3
+"727","JALEN SMITH","Points","6.5","Over",-132,146,"2024-03-29","0",3
+"728","RUSSELL WESTBROOK","Points & Assists","10.5","Over",-130,146,"2024-03-29","0",3
+"729","COLE ANTHONY","Points & Rebounds","15.5","Under",-130,146,"2024-03-29","1",3
+"730","OBI TOPPIN","Steals","0.5","Under",-130,146,"2024-03-29","1",3
+"731","JAYLEN BROWN","Rebounds & Assists","8.5","Over",-138,147,"2024-03-30","0",0
+"732","PAOLO BANCHERO","Rebounds","7.5","Under",-136,147,"2024-03-30","0",0
+"733","CJ MCCOLLUM","Steals","0.5","Over",-130,147,"2024-03-30","0",0
+"734","DE'ANDRE HUNTER","Steals","0.5","Over",-130,147,"2024-03-30","0",0
+"735","CLINT CAPELA","Points","11.5","Over",-130,147,"2024-03-30","0",0
+"736","AARON GORDON","Rebounds","6.5","Under",-148,148,"2024-03-31","0",1
+"737","TRE MANN","Assists","4.5","Over",-142,148,"2024-03-31","1",1
+"738","DONTE DIVINCENZO","Assists","2.5","Over",-132,148,"2024-03-31","0",1
+"739","KYLE KUZMA","Assists","4.5","Under",-130,148,"2024-03-31","-1",1
+"740","TYRESE MAXEY","Rebounds","3.5","Under",-130,148,"2024-03-31","-1",1
+"741","D'ANGELO RUSSELL","Threes","2.5","Over",-148,149,"2024-03-31","1",1
+"742","KLAY THOMPSON","Threes","3.5","Over",-140,149,"2024-03-31","0",1
+"743","DENI AVDIJA","Steals","0.5","Under",-138,149,"2024-03-31","0",1
+"744","DONOVAN MITCHELL","Rebounds","3.5","Over",-136,149,"2024-03-31","0",1
+"745","DE'AARON FOX","Threes","2.5","Over",-136,149,"2024-03-31","0",1
+"746","JAMES HARDEN","Assists","8.5","Over",-136,150,"2024-03-31","1",3
+"747","EVAN MOBLEY","Assists","2.5","Over",-136,150,"2024-03-31","0",3
+"748","NIKOLA VUCEVIC","Steals","0.5","Under",-135,150,"2024-03-31","0",3
+"749","ANTHONY EDWARDS","Assists","5.5","Under",-132,150,"2024-03-31","1",3
+"750","KYRIE IRVING","Rebounds","4.5","Under",-130,150,"2024-03-31","1",3
+"751","JORDAN POOLE","Threes","2.5","Over",-130,151,"2024-03-31","1",3
+"752","MIKAL BRIDGES","Rebounds & Assists","7.5","Over",-130,151,"2024-03-31","0",3
+"753","FRED VANVLEET","Assists","8.5","Under",-130,151,"2024-03-31","1",3
+"754","AUSTIN REAVES","Steals","0.5","Over",-130,151,"2024-03-31","1",3
+"755","TRE JONES","Points","11.5","Under",-130,151,"2024-03-31","0",3
+"756","DENNIS SCHRODER","Rebounds & Assists","9.5","Over",-130,152,"2024-03-31","0",2
+"757","NAZ REID","Rebounds","7.5","Under",-130,152,"2024-03-31","1",2
+"758","KENTAVIOUS CALDWELL POPE","Rebounds","2.5","Under",-130,152,"2024-03-31","0",2
+"759","JONATHAN KUMINGA","Threes","0.5","Over",-130,152,"2024-03-31","-1",2
+"760","ALEX CARUSO","Points & Rebounds","12.5","Over",-130,152,"2024-03-31","1",2
+"761","D'ANGELO RUSSELL","Assists","5.5","Under",-148,153,"2024-03-31","0",2
+"762","TOBIAS HARRIS","Rebounds","7.5","Under",-140,153,"2024-03-31","0",2
+"763","DARIUS GARLAND","Rebounds & Assists","8.5","Over",-130,153,"2024-03-31","1",2
+"764","JOSH GIDDEY","Rebounds","6.5","Under",-130,153,"2024-03-31","0",2
+"765","AYO DOSUNMU","Points","13.5","Under",-130,153,"2024-03-31","1",2
+"766","DONTE DIVINCENZO","Steals","1.5","Under",-136,154,"2024-03-31","0",3
+"767","ALEX CARUSO","Points","9.5","Under",-134,154,"2024-03-31","0",3
+"768","JIMMY BUTLER","Assists","5.5","Under",-132,154,"2024-03-31","1",3
+"769","WALKER KESSLER","Points","9.5","Under",-132,154,"2024-03-31","1",3
+"770","SHAI GILGEOUS ALEXANDER","Steals","1.5","Under",-130,154,"2024-03-31","1",3
+"771","BUDDY HIELD","Points & Assists","15.5","Under",-130,155,"2024-03-31","0",2
+"772","DILLON BROOKS","Steals","0.5","Over",-130,155,"2024-03-31","-1",2
+"773","TRE JONES","Rebounds & Assists","11.5","Under",-130,155,"2024-03-31","1",2
+"774","NAZ REID","Points, Rebounds, Assists","26.5","Under",-130,155,"2024-03-31","1",2
+"775","KYLE ANDERSON","Blocks","0.5","Under",-130,155,"2024-03-31","0",2
+"776","ALEX CARUSO","Threes","1.5","Over",-136,156,"2024-03-31","1",4
+"777","RUSSELL WESTBROOK","Points","7.5","Over",-134,156,"2024-03-31","1",4
+"778","SHAI GILGEOUS ALEXANDER","Rebounds","5.5","Under",-132,156,"2024-03-31","1",4
+"779","JOSH HART","Rebounds & Assists","17.5","Under",-130,156,"2024-03-31","0",4
+"780","AYO DOSUNMU","Points & Rebounds","16.5","Under",-130,156,"2024-03-31","1",4
+"781","DEMAR DEROZAN","Assists","4.5","Over",-154,157,"2024-04-01","1",2
+"782","PASCAL SIAKAM","Threes","0.5","Over",-140,157,"2024-04-01","1",2
+"783","FRANZ WAGNER","Rebounds & Assists","7.5","Over",-138,157,"2024-04-01","0",2
+"784","TRE MANN","Assists","4.5","Over",-138,157,"2024-04-01","0",2
+"785","PAOLO BANCHERO","Rebounds & Assists","12.5","Over",-136,157,"2024-04-01","0",2
+"786","SANTI ALDAMA","Points","10.5","Under",-136,158,"2024-04-01","1",3
+"787","DERRICK WHITE","Rebounds & Assists","10.5","Over",-132,158,"2024-04-01","1",3
+"788","KRISTAPS PORZINGIS","Assists","1.5","Over",-130,158,"2024-04-01","1",3
+"789","DEJOUNTE MURRAY","Rebounds & Assists","14.5","Over",-130,158,"2024-04-01","0",3
+"790","JRUE HOLIDAY","Blocks","0.5","Over",-130,158,"2024-04-01","0",3
+"791","GRAYSON ALLEN","Assists","2.5","Over",-148,159,"2024-04-01","1",2
+"792","LUKE KENNARD","Assists","4.5","Under",-146,159,"2024-04-01","0",2
+"793","SANTI ALDAMA","Threes","1.5","Over",-140,159,"2024-04-01","0",2
+"794","DORIAN FINNEY SMITH","Points","7.5","Under",-138,159,"2024-04-01","1",2
+"795","MYLES TURNER","Blocks","1.5","Under",-130,159,"2024-04-01","0",2
+"796","ALEX CARUSO","Assists","4.5","Under",-140,160,"2024-04-01","1",3
+"797","DEMAR DEROZAN","Rebounds","4.5","Under",-132,160,"2024-04-01","1",3
+"798","JRUE HOLIDAY","Rebounds","4.5","Over",-132,160,"2024-04-01","1",3
+"799","KRISTAPS PORZINGIS","Rebounds & Assists","9.5","Under",-130,160,"2024-04-01","0",3
+"800","DEJOUNTE MURRAY","Steals","1.5","Over",-130,160,"2024-04-01","0",3
+"801","CJ MCCOLLUM","Assists","5.5","Under",-142,161,"2024-04-01","0",3
+"802","PASCAL SIAKAM","Rebounds & Assists","12.5","Under",-138,161,"2024-04-01","1",3
+"803","KRISTAPS PORZINGIS","Steals","0.5","Over",-135,161,"2024-04-01","0",3
+"804","JONAS VALANCIUNAS","Rebounds","7.5","Under",-132,161,"2024-04-01","1",3
+"805","DERRICK WHITE","Assists","5.5","Under",-130,161,"2024-04-01","1",3
+"806","GRANT WILLIAMS","Rebounds","5.5","Under",-142,162,"2024-04-01","0",1
+"807","JAYSON TATUM","Rebounds","8.5","Under",-134,162,"2024-04-01","0",1
+"808","PASCAL SIAKAM","Rebounds","8.5","Under",-134,162,"2024-04-01","1",1
+"809","CLINT CAPELA","Steals","0.5","Under",-130,162,"2024-04-01","0",1
+"810","TRE MANN","Rebounds & Assists","8.5","Over",-130,162,"2024-04-01","0",1
+"811","MALAKI BRANHAM","Assists","2.5","Over",-142,163,"2024-04-02","0",0
+"812","JORDAN POOLE","Rebounds & Assists","9.5","Over",-140,163,"2024-04-02","0",0
+"813","DILLON BROOKS","Threes","1.5","Under",-140,163,"2024-04-02","0",0
+"814","DONTE DIVINCENZO","Rebounds","3.5","Over",-140,163,"2024-04-02","0",0
+"815","DONOVAN MITCHELL","Assists","4.5","Over",-138,163,"2024-04-02","0",0
+"816","FRED VANVLEET","Assists","6.5","Over",-138,164,"2024-04-02","0",0
+"817","AUSTIN REAVES","Assists","5.5","Over",-138,164,"2024-04-02","0",0
+"818","GIANNIS ANTETOKOUNMPO","Rebounds","13.5","Under",-136,164,"2024-04-02","0",0
+"819","JAMES HARDEN","Rebounds","4.5","Over",-136,164,"2024-04-02","0",0
+"820","TYRESE MAXEY","Rebounds & Assists","9.5","Over",-136,164,"2024-04-02","0",0
+"821","BROOK LOPEZ","Threes","1.5","Under",-136,165,"2024-04-02","0",0
+"822","DENI AVDIJA","Threes","1.5","Under",-136,165,"2024-04-02","0",0
+"823","SHAI GILGEOUS ALEXANDER","Assists","5.5","Under",-132,165,"2024-04-02","0",0
+"824","DRAYMOND GREEN","Assists","5.5","Over",-132,165,"2024-04-02","0",0
+"825","AARON GORDON","Threes","0.5","Under",-130,165,"2024-04-02","0",0
+"826","HARRISON BARNES","Points & Assists","15.5","Over",-130,166,"2024-04-02","0",0
+"827","TRE JONES","Rebounds & Assists","10.5","Under",-130,166,"2024-04-02","0",0
+"828","RUI HACHIMURA","Rebounds","5.5","Under",-130,166,"2024-04-02","0",0
+"829","KENTAVIOUS CALDWELL POPE","Points, Rebounds, Assists","16.5","Under",-130,166,"2024-04-02","0",0
+"830","WALKER KESSLER","Steals","0.5","Over",-130,166,"2024-04-02","0",0
+"831","SHAI GILGEOUS ALEXANDER","Steals","1.5","Under",-136,167,"2024-04-02","0",0
+"832","ANTHONY EDWARDS","Rebounds","6.5","Under",-132,167,"2024-04-02","0",0
+"833","BAM ADEBAYO","Rebounds","10.5","Under",-130,167,"2024-04-02","0",0
+"834","AARON GORDON","Rebounds","6.5","Under",-130,167,"2024-04-02","0",0
+"835","RUI HACHIMURA","Blocks","0.5","Over",-130,167,"2024-04-02","0",0
+"836","DENI AVDIJA","Assists","4.5","Under",-138,168,"2024-04-02","0",0
+"837","NIKOLA JOKIC","Steals","1.5","Under",-136,168,"2024-04-02","0",0
+"838","JALEN GREEN","Rebounds & Assists","9.5","Over",-132,168,"2024-04-02","0",0
+"839","BAM ADEBAYO","Rebounds & Assists","14.5","Under",-132,168,"2024-04-02","0",0
+"840","DRAYMOND GREEN","Rebounds & Assists","13.5","Over",-132,168,"2024-04-02","0",0
+"841","PATRICK BEVERLEY","Rebounds & Assists","9.5","Under",-132,169,"2024-04-02","0",0
+"842","EVAN MOBLEY","Rebounds","9.5","Under",-130,169,"2024-04-02","0",0
+"843","RUSSELL WESTBROOK","Points & Rebounds","11.5","Under",-130,169,"2024-04-02","0",0
+"844","BOBBY PORTIS","Rebounds","7.5","Over",-130,169,"2024-04-02","0",0
+"845","KEEGAN MURRAY","Rebounds","5.5","Under",-130,169,"2024-04-02","0",0
+"846","ZACH COLLINS","Rebounds","4.5","Under",-134,170,"2024-04-02","0",0
+"847","CARIS LEVERT","Blocks","0.5","Under",-130,170,"2024-04-02","0",0
+"848","JADEN MCDANIELS","Points & Assists","13.5","Under",-130,170,"2024-04-02","0",0
+"849","CALEB MARTIN","Points","8.5","Under",-130,170,"2024-04-02","0",0
+"850","KYLE ANDERSON","Points & Rebounds","12.5","Under",-130,170,"2024-04-02","0",0
+"851","TOBIAS HARRIS","Rebounds","6.5","Over",-140,171,"2024-04-02","0",0
+"852","JOSH HART","Points","10.5","Under",-140,171,"2024-04-02","0",0
+"853","DERRICK JONES JR.","Threes","0.5","Over",-140,171,"2024-04-02","0",0
+"854","MALIK BEASLEY","Rebounds","3.5","Under",-135,171,"2024-04-02","0",0
+"855","DONTE DIVINCENZO","Blocks","0.5","Under",-135,171,"2024-04-02","0",0
+"856","JALEN BRUNSON","Assists","6.5","Under",-132,172,"2024-04-02","0",0
+"857","JOSH GIDDEY","Assists","7.5","Under",-132,172,"2024-04-02","0",0
+"858","DRAYMOND GREEN","Points & Assists","13.5","Over",-132,172,"2024-04-02","0",0
+"859","DE'AARON FOX","Rebounds & Assists","11.5","Under",-130,172,"2024-04-02","0",0
+"860","IMMANUEL QUICKLEY","Rebounds","3.5","Over",-130,172,"2024-04-02","0",0
